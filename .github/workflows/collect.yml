@@ -1,0 +1,87 @@
+name: Collecte météo Monistrol
+
+on:
+  schedule:
+    # 06h40 UTC : les fichiers horaires Météo-France sont publiés vers 05h45,
+    # on laisse une marge. 18h40 UTC : rafraîchit la prévision avec le run du
+    # soir. Les minutes décalées évitent la congestion du haut d'heure, où
+    # GitHub Actions saute volontiers des exécutions planifiées.
+    - cron: "40 6 * * *"
+    - cron: "40 18 * * *"
+  workflow_dispatch:
+    inputs:
+      backfill:
+        description: "Profondeur d'historique à recharger, en jours (vide = routine)"
+        required: false
+        default: ""
+  # Les plannings GitHub étant au mieux approximatifs, on garde une porte
+  # d'entrée pour un déclencheur externe (cron-job.org par exemple).
+  repository_dispatch:
+    types: [collect]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: meteo-main
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    # Le secret est exposé au niveau du job, et pas dans le `env:` de chaque
+    # étape : la condition `if:` d'une étape est évaluée AVANT que son propre
+    # `env:` soit appliqué, et le contexte `secrets` n'y est pas disponible.
+    # Déclaré dans l'étape, le battement ne se déclenche donc jamais — en
+    # silence, ce qui est le comble pour une surveillance.
+    env:
+      HEALTHCHECKS_URL: ${{ secrets.HEALTHCHECKS_URL }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      # Aucune dépendance : le collecteur tient sur la bibliothèque standard.
+      - name: Collecte
+        run: |
+          if [ -n "${{ inputs.backfill }}" ]; then
+            python collect.py --backfill "${{ inputs.backfill }}"
+          else
+            python collect.py
+          fi
+
+      - name: Consolidation et état
+        run: |
+          python consolidate.py
+          python summary.py
+
+      - name: Commit et push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ stations.json ETAT.md
+          if git diff --cached --quiet; then
+            echo "Rien de neuf."
+            exit 0
+          fi
+          git commit -m "meteo: collecte $(date -u +%FT%H:%MZ)"
+          for i in 1 2 3 4 5; do
+            git push && exit 0
+            echo "Push rejeté ($i), rebase sur origin et nouvel essai..."
+            git pull --rebase --autostash origin "$(git branch --show-current)"
+            sleep "$i"
+          done
+          echo "Push toujours en échec après 5 tentatives." >&2
+          exit 1
+
+      # Seul ce battement détecte que GitHub Actions lui-même n'a pas tourné :
+      # les deux autres couches de surveillance supposent que le job démarre.
+      - name: Battement healthchecks.io (succès)
+        if: success() && env.HEALTHCHECKS_URL != ''
+        run: curl -fsS -m 10 --retry 3 "$HEALTHCHECKS_URL"
+
+      - name: Battement healthchecks.io (échec)
+        if: failure() && env.HEALTHCHECKS_URL != ''
+        run: curl -fsS -m 10 --retry 3 "${HEALTHCHECKS_URL}/fail"

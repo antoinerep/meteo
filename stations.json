@@ -1,0 +1,142 @@
+{
+  "43020002": {
+    "id": "43020002",
+    "name": "BAS-EN-BASSET",
+    "lat": 45.319667,
+    "lon": 4.129,
+    "alt": 446,
+    "dist_km": 4.55,
+    "dept": "43",
+    "kind": "HOR"
+  },
+  "43025001": {
+    "id": "43025001",
+    "name": "BEAUZAC-SPC",
+    "lat": 45.2615,
+    "lon": 4.1315,
+    "alt": 643,
+    "dist_km": 4.71,
+    "dept": "43",
+    "kind": "HORCOMP"
+  },
+  "43137003": {
+    "id": "43137003",
+    "name": "MONISTROL-SUR-LOIRE",
+    "lat": 45.314,
+    "lon": 4.231167,
+    "alt": 777,
+    "dist_km": 5.17,
+    "dept": "43",
+    "kind": "HOR"
+  },
+  "43012001": {
+    "id": "43012001",
+    "name": "AUREC-SUR-LOIRE-SPC",
+    "lat": 45.3885,
+    "lon": 4.177833,
+    "alt": 820,
+    "dist_km": 10.68,
+    "dept": "43",
+    "kind": "HORCOMP"
+  },
+  "43223001": {
+    "id": "43223001",
+    "name": "ST-ROMAIN-LACHALM",
+    "lat": 45.2615,
+    "lon": 4.3275,
+    "alt": 902,
+    "dist_km": 12.61,
+    "dept": "43",
+    "kind": "HOR"
+  },
+  "43246001": {
+    "id": "43246001",
+    "name": "TIRANGES",
+    "lat": 45.268333,
+    "lon": 3.998667,
+    "alt": 603,
+    "dist_km": 13.86,
+    "dept": "43",
+    "kind": "HOR"
+  },
+  "43162001": {
+    "id": "43162001",
+    "name": "RETOURNAC",
+    "lat": 45.203833,
+    "lon": 4.030167,
+    "alt": 535,
+    "dist_km": 14.88,
+    "dept": "43",
+    "kind": "HOR"
+  },
+  "43141001": {
+    "id": "43141001",
+    "name": "MONTFAUCON-EN-VELAY-SPC",
+    "lat": 45.1865,
+    "lon": 4.326333,
+    "alt": 919,
+    "dist_km": 16.85,
+    "dept": "43",
+    "kind": "HORCOMP"
+  },
+  "43212002": {
+    "id": "43212002",
+    "name": "ST-PAL-DE-CHALENCON",
+    "lat": 45.344833,
+    "lon": 3.9665,
+    "alt": 960,
+    "dist_km": 17.13,
+    "dept": "43",
+    "kind": "HOR"
+  },
+  "42204002": {
+    "id": "42204002",
+    "name": "ST-BONNET-LE-CHATEAU_SAPC",
+    "lat": 45.436167,
+    "lon": 4.072,
+    "alt": 822,
+    "dist_km": 17.8,
+    "dept": "42",
+    "kind": "HOR"
+  },
+  "43268004": {
+    "id": "43268004",
+    "name": "YSSINGEAUX",
+    "lat": 45.135167,
+    "lon": 4.1275,
+    "alt": 873,
+    "dist_km": 17.85,
+    "dept": "43",
+    "kind": "HOR"
+  },
+  "43203001": {
+    "id": "43203001",
+    "name": "ST-JULIEN-DU-PINET-SPC",
+    "lat": 45.144333,
+    "lon": 4.054167,
+    "alt": 942,
+    "dist_km": 18.9,
+    "dept": "43",
+    "kind": "HORCOMP"
+  },
+  "42224004": {
+    "id": "42224004",
+    "name": "SAINT-GENEST-MALIFAUX-SPC",
+    "lat": 45.3435,
+    "lon": 4.420833,
+    "alt": 960,
+    "dist_km": 20.23,
+    "dept": "42",
+    "kind": "HORCOMP"
+  },
+  "43244003": {
+    "id": "43244003",
+    "name": "TENCE",
+    "lat": 45.1165,
+    "lon": 4.277167,
+    "alt": 848,
+    "dist_km": 21.22,
+    "dept": "43",
+    "kind": "HOR"
+  }
+}

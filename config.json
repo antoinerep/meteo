@@ -1,0 +1,30 @@
+{
+  "_comment": "Zone d'intérêt et points de collecte. Ce dépôt ne fait que de la météo : il collecte sur des points nommés, sans rien savoir de l'usage qui en sera fait.",
+
+  "center": { "name": "Monistrol-sur-Loire", "lat": 45.2925, "lon": 4.1725 },
+  "radius_km": 22,
+  "departements": ["43", "42"],
+  "timezone": "Europe/Paris",
+
+  "forecast_models": [
+    "meteofrance_arome_france_hd",
+    "meteofrance_arpege_europe",
+    "best_match"
+  ],
+
+  "points": [
+    { "id": "monistrol",        "name": "Monistrol-sur-Loire (bourg)",            "lat": 45.2925, "lon": 4.1725, "alt": 602 },
+    { "id": "chambon-loire",    "name": "Gorges de la Loire - Le Chambon",        "lat": 45.3450, "lon": 4.1480, "alt": 460 },
+    { "id": "aurec-hermet",     "name": "Aurec-sur-Loire - Hermet",               "lat": 45.3700, "lon": 4.1830, "alt": 500 },
+    { "id": "malvalette-garay", "name": "Vallon de Malvalette - Le Garay",        "lat": 45.3520, "lon": 4.1080, "alt": 660 },
+    { "id": "orcimont",         "name": "Bois d'Orcimont - Raies Brulees",        "lat": 45.3000, "lon": 4.2050, "alt": 760 },
+    { "id": "champeau",         "name": "Champeau",                               "lat": 45.3050, "lon": 4.2300, "alt": 800 },
+    { "id": "tirepeyre",        "name": "Tirepeyre - Solignac",                   "lat": 45.2880, "lon": 4.2000, "alt": 700 },
+    { "id": "chazeaux",         "name": "Pont de Chazeaux - Vacheres",            "lat": 45.2720, "lon": 4.1900, "alt": 640 },
+    { "id": "monteil",          "name": "Le Monteil - rive gauche Loire",         "lat": 45.2580, "lon": 4.1400, "alt": 560 },
+    { "id": "beauzac-raide",    "name": "Beauzac - Le Raide Mont",                "lat": 45.2400, "lon": 4.1400, "alt": 610 },
+    { "id": "semene-chaud",     "name": "Semene - Suc de la Chaud",               "lat": 45.2780, "lon": 4.2400, "alt": 840 },
+    { "id": "bas-rochebaron",   "name": "Bas-en-Basset - Rochebaron",             "lat": 45.3100, "lon": 4.1100, "alt": 560 },
+    { "id": "valprivas",        "name": "Valprivas - Bois de la Faye",            "lat": 45.3250, "lon": 4.0800, "alt": 830 }
+  ]
+}

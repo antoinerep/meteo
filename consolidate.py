@@ -8,6 +8,8 @@ aux formats bruts, ces deux fichiers gardent la même forme.
                               (source, jour)
     data/forecast_daily.json  prévision la plus récente, un enregistrement par
                               (point, jour)
+    data/climatologie.json    normales par point et par quantième, pour
+                              prolonger au-delà de la prévision
 
 Une « source » est soit une station Météo-France (`station:43137003`), soit un
 point de config.json alimenté par AROME HD (`point:orcimont`).
@@ -212,6 +214,95 @@ def interpoler_stations(daily: dict[str, dict[str, dict]],
                 daily[pid][jour]["rr_stations_n"] = len(mesures)
 
 
+def build_climatologie(daily: dict[str, dict[str, dict]],
+                       sources: dict[str, dict], fenetre: int = 5) -> dict:
+    """Normales par point et par jour de l'année, pour prolonger la prévision.
+
+    Au-delà de la quinzaine, aucun modèle ne dit plus rien d'utile. Plutôt que
+    de laisser un trou — ce qui revient à supposer qu'il ne pleut plus jamais —
+    on prolonge par ce qu'il tombe *d'habitude* à cette date.
+
+    Pour la pluie, c'est la **moyenne** et non la médiane : la médiane d'un jour
+    d'octobre vaut zéro, puisque la plupart des jours sont secs, et un cumul
+    bâti sur des médianes n'accumulerait jamais rien. La moyenne est la bonne
+    espérance pour une grandeur qu'on additionne.
+
+    Les températures sont descendues des stations au point avec un gradient
+    adiabatique de 0,6 °C par 100 m : une interpolation brute entre un poste à
+    446 m et un autre à 960 m donnerait n'importe quoi.
+
+    Chaque jour est lissé sur une fenêtre de ±`fenetre` jours, sinon la série
+    serait aussi bruitée qu'une seule année.
+    """
+    stations = {k: v for k, v in sources.items() if v["kind"] == "station"}
+    points = {k: v for k, v in sources.items() if v["kind"] == "point"}
+    if not stations:
+        return {}
+
+    GRADIENT = 0.6 / 100.0          # °C par mètre, décroissant avec l'altitude
+
+    jours = sorted({j for sid in stations for j in daily.get(sid, {})})
+    out: dict[str, dict] = {}
+
+    for pid, pm in points.items():
+        poids = {}
+        for sid, sm in stations.items():
+            d_km = math.hypot((pm["lat"] - sm["lat"]) * 111.0,
+                              (pm["lon"] - sm["lon"]) * 78.1)
+            poids[sid] = 1.0 / max(d_km + abs((pm["alt"] or 0) -
+                                              (sm["alt"] or 0)) / 100.0, 0.5) ** 2
+
+        # Série interpolée sur tout l'historique des stations, pas seulement
+        # sur les jours où le modèle a tourné.
+        serie: dict[str, dict] = {}
+        for jour in jours:
+            acc = {"rr": [0.0, 0.0], "tmin": [0.0, 0.0], "tmax": [0.0, 0.0]}
+            for sid, sm in stations.items():
+                e = daily.get(sid, {}).get(jour)
+                if not e or e.get("hours", 0) < 20:
+                    continue
+                w = poids[sid]
+                dz = (pm["alt"] or 0) - (sm["alt"] or 0)
+                for champ in ("rr", "tmin", "tmax"):
+                    if champ in e:
+                        v = e[champ] - (dz * GRADIENT if champ != "rr" else 0.0)
+                        acc[champ][0] += w * v
+                        acc[champ][1] += w
+            ligne = {c: round(v[0] / v[1], 2) for c, v in acc.items() if v[1] > 0}
+            if "rr" in ligne:
+                serie[jour] = ligne
+
+        # Agrégation par quantième, sur une fenêtre glissante.
+        par_quantieme: dict[str, list[dict]] = collections.defaultdict(list)
+        for jour, ligne in serie.items():
+            d = dt.date.fromisoformat(jour)
+            for delta in range(-fenetre, fenetre + 1):
+                cible = d + dt.timedelta(days=delta)
+                par_quantieme[f"{cible.month:02d}-{cible.day:02d}"].append(ligne)
+
+        normales = {}
+        for mmjj, lignes in par_quantieme.items():
+            if len(lignes) < fenetre:          # trop peu d'années pour une normale
+                continue
+            n = {}
+            for champ in ("rr", "tmin", "tmax"):
+                vals = [l[champ] for l in lignes if champ in l]
+                if vals:
+                    n[champ] = round(statistics.fmean(vals), 2)
+            if "tmin" in n and "tmax" in n:
+                n["tmoy"] = round((n["tmin"] + n["tmax"]) / 2, 2)
+            n["annees"] = round(len(lignes) / (2 * fenetre + 1), 1)
+            normales[mmjj] = n
+        out[pid.split(":", 1)[1]] = dict(sorted(normales.items()))
+
+    return {
+        "methode": "moyenne glissante +/- %d jours des stations interpolées, "
+                   "températures descendues au point à 0,6 °C/100 m" % fenetre,
+        "periode": [jours[0], jours[-1]] if jours else None,
+        "points": out,
+    }
+
+
 def build_forecast_daily() -> dict:
     """Prévision journalière du dernier run, champ par champ.
 
@@ -305,6 +396,10 @@ def main() -> int:
         json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + "\n",
         encoding="utf-8")
 
+    climat = build_climatologie(daily, sources)
+    (DATA / "climatologie.json").write_text(
+        json.dumps(climat, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+
     forecast = build_forecast_daily()
     forecast["generated"] = payload["generated"]
     (DATA / "forecast_daily.json").write_text(
@@ -314,6 +409,10 @@ def main() -> int:
     print(f"daily.json          : {len(daily)} sources, {n_days} jours-source")
     print(f"forecast_daily.json : run {forecast['run_ts']}, "
           f"{len(forecast['points'])} points")
+    n_norm = sum(len(v) for v in climat.get("points", {}).values())
+    print(f"climatologie.json   : {len(climat.get('points', {}))} points, "
+          f"{n_norm} normales journalières, période "
+          f"{climat.get('periode', ['?', '?'])[0]} -> {climat.get('periode', ['?','?'])[1]}")
     return 0
 
 

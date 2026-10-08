@@ -1,5 +1,5 @@
 {
- "run_ts": "2026-10-07T23:16:58+00:00",
+ "run_ts": "2026-10-08T14:00:13+00:00",
  "points": {
   "aurec-hermet": {
    "2026-10-06": {
@@ -39,14 +39,14 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 11.1,
+    "rr": 11.2,
     "tmin": 13.1,
     "tmax": 19.6,
-    "tmoy": 15.3,
-    "rh": 90,
-    "wind": 5.7,
+    "tmoy": 15.4,
+    "rh": 91,
+    "wind": 5.4,
     "et0": 1.67,
-    "tsol": 15.4,
+    "tsol": 15.3,
     "sm": 0.202,
     "sm_deep": 0.11
    },
@@ -63,40 +63,40 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 16.1,
-    "tmin": 6.9,
-    "tmax": 13.2,
-    "tmoy": 9.8,
-    "rh": 87,
-    "wind": 8.3,
-    "et0": 0.57,
-    "tsol": 11.5,
-    "sm": 0.271,
-    "sm_deep": 0.121
+    "rr": 9.5,
+    "tmin": 5.9,
+    "tmax": 13.4,
+    "tmoy": 10.3,
+    "rh": 81,
+    "wind": 8.2,
+    "et0": 0.45,
+    "tsol": 11.4,
+    "sm": 0.299,
+    "sm_deep": 0.131
    },
    "2026-10-09": {
     "models": {
-     "rr": "meteofrance_arpege_europe",
-     "tmin": "meteofrance_arpege_europe",
-     "tmax": "meteofrance_arpege_europe",
-     "tmoy": "meteofrance_arpege_europe",
-     "rh": "meteofrance_arpege_europe",
+     "rr": "meteofrance_arome_france_hd",
+     "tmin": "meteofrance_arome_france_hd",
+     "tmax": "meteofrance_arome_france_hd",
+     "tmoy": "meteofrance_arome_france_hd",
+     "rh": "meteofrance_arome_france_hd",
+     "wind": "meteofrance_arome_france_hd",
      "et0": "meteofrance_arpege_europe",
-     "wind": "meteofrance_arpege_europe",
      "tsol": "best_match",
      "sm": "best_match",
      "sm_deep": "best_match"
     },
     "rr": 0.1,
-    "tmin": 6.2,
-    "tmax": 13.0,
-    "tmoy": 9.7,
-    "rh": 69,
-    "et0": 2.13,
-    "wind": 9.4,
-    "tsol": 10.0,
-    "sm": 0.246,
-    "sm_deep": 0.134
+    "tmin": 4.1,
+    "tmax": 13.3,
+    "tmoy": 9.8,
+    "rh": 68,
+    "wind": 4.7,
+    "et0": 2.06,
+    "tsol": 9.8,
+    "sm": 0.278,
+    "sm_deep": 0.168
    },
    "2026-10-10": {
     "models": {
@@ -111,16 +111,16 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 1.0,
-    "tmin": 6.9,
-    "tmax": 15.7,
+    "rr": 0.1,
+    "tmin": 6.6,
+    "tmax": 15.6,
     "tmoy": 11.2,
-    "rh": 92,
-    "et0": 1.02,
-    "wind": 4.9,
-    "tsol": 13.6,
-    "sm": 0.217,
-    "sm_deep": 0.137
+    "rh": 91,
+    "et0": 0.86,
+    "wind": 6.4,
+    "tsol": 12.5,
+    "sm": 0.239,
+    "sm_deep": 0.18
    },
    "2026-10-11": {
     "models": {
@@ -137,14 +137,14 @@
     },
     "rr": 0.0,
     "tmin": 5.7,
-    "tmax": 13.4,
-    "tmoy": 9.6,
-    "rh": 77,
-    "et0": 8.71,
-    "wind": 6.8,
-    "tsol": 11.5,
-    "sm": 0.205,
-    "sm_deep": 0.138
+    "tmax": 13.9,
+    "tmoy": 9.9,
+    "rh": 76,
+    "et0": 1.86,
+    "wind": 5.5,
+    "tsol": 10.3,
+    "sm": 0.221,
+    "sm_deep": 0.182
    },
    "2026-10-12": {
     "models": {
@@ -160,15 +160,15 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 5.5,
-    "tmax": 15.1,
-    "tmoy": 9.6,
-    "rh": 81,
-    "et0": 2.03,
-    "tsol": 10.3,
-    "sm": 0.193,
-    "sm_deep": 0.132,
-    "wind": 7.5
+    "tmin": 3.5,
+    "tmax": 16.3,
+    "tmoy": 9.9,
+    "rh": 79,
+    "et0": 2.06,
+    "tsol": 10.4,
+    "sm": 0.208,
+    "sm_deep": 0.181,
+    "wind": 5.1
    },
    "2026-10-13": {
     "models": {
@@ -184,15 +184,15 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 4.6,
-    "tmax": 19.1,
-    "tmoy": 14.0,
-    "rh": 67,
-    "et0": 2.21,
+    "tmin": 6.9,
+    "tmax": 19.8,
+    "tmoy": 14.3,
+    "rh": 69,
+    "et0": 2.16,
     "tsol": 13.0,
-    "sm": 0.181,
-    "sm_deep": 0.124,
-    "wind": 4.1
+    "sm": 0.205,
+    "sm_deep": 0.168,
+    "wind": 3.9
    },
    "2026-10-14": {
     "models": {
@@ -207,16 +207,16 @@
      "sm_deep": "best_match",
      "wind": "best_match"
     },
-    "rr": 0.9,
-    "tmin": 6.8,
-    "tmax": 18.8,
-    "tmoy": 14.3,
-    "rh": 86,
-    "et0": 1.34,
-    "tsol": 14.9,
-    "sm": 0.174,
-    "sm_deep": 0.124,
-    "wind": 7.5
+    "rr": 0.0,
+    "tmin": 12.7,
+    "tmax": 20.2,
+    "tmoy": 15.7,
+    "rh": 84,
+    "et0": 1.59,
+    "tsol": 15.1,
+    "sm": 0.195,
+    "sm_deep": 0.166,
+    "wind": 4.3
    },
    "2026-10-15": {
     "models": {
@@ -226,15 +226,21 @@
      "tmoy": "best_match",
      "rh": "best_match",
      "et0": "best_match",
+     "tsol": "best_match",
+     "sm": "best_match",
+     "sm_deep": "best_match",
      "wind": "best_match"
     },
-    "rr": 3.9,
-    "tmin": 6.1,
-    "tmax": 17.4,
-    "tmoy": 11.8,
-    "rh": 90,
-    "et0": 1.54,
-    "wind": 5.1
+    "rr": 7.2,
+    "tmin": 10.0,
+    "tmax": 20.9,
+    "tmoy": 14.8,
+    "rh": 83,
+    "et0": 1.88,
+    "tsol": 14.7,
+    "sm": 0.188,
+    "sm_deep": 0.166,
+    "wind": 4.1
    },
    "2026-10-16": {
     "models": {
@@ -246,13 +252,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 0.9,
-    "tmin": 4.7,
-    "tmax": 10.9,
-    "tmoy": 8.4,
-    "rh": 87,
-    "et0": 1.11,
-    "wind": 17.4
+    "rr": 14.1,
+    "tmin": 4.2,
+    "tmax": 11.1,
+    "tmoy": 8.5,
+    "rh": 85,
+    "et0": 0.98,
+    "wind": 16.7
    },
    "2026-10-17": {
     "models": {
@@ -264,13 +270,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 0.0,
-    "tmin": 2.1,
-    "tmax": 10.5,
-    "tmoy": 6.9,
-    "rh": 81,
-    "et0": 1.38,
-    "wind": 12.1
+    "rr": 3.9,
+    "tmin": 3.6,
+    "tmax": 6.2,
+    "tmoy": 4.8,
+    "rh": 83,
+    "et0": 1.0,
+    "wind": 27.1
    },
    "2026-10-18": {
     "models": {
@@ -283,12 +289,12 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 0.8,
-    "tmax": 12.7,
-    "tmoy": 8.1,
-    "rh": 75,
-    "et0": 1.83,
-    "wind": 7.9
+    "tmin": 4.3,
+    "tmax": 9.2,
+    "tmoy": 6.5,
+    "rh": 80,
+    "et0": 1.31,
+    "wind": 9.0
    },
    "2026-10-19": {
     "models": {
@@ -301,12 +307,12 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 7.4,
-    "tmax": 11.8,
-    "tmoy": 9.7,
-    "rh": 91,
-    "et0": 1.09,
-    "wind": 8.0
+    "tmin": 3.9,
+    "tmax": 14.5,
+    "tmoy": 8.6,
+    "rh": 79,
+    "et0": 1.73,
+    "wind": 5.1
    },
    "2026-10-20": {
     "models": {
@@ -318,13 +324,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 4.2,
-    "tmin": 6.7,
-    "tmax": 15.5,
-    "tmoy": 10.4,
+    "rr": 0.0,
+    "tmin": 3.8,
+    "tmax": 18.2,
+    "tmoy": 11.1,
     "rh": 82,
-    "et0": 1.79,
-    "wind": 6.4
+    "et0": 1.89,
+    "wind": 4.1
    }
   },
   "bas-rochebaron": {
@@ -365,15 +371,15 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 13.2,
-    "tmin": 13.7,
+    "rr": 13.3,
+    "tmin": 13.9,
     "tmax": 20.1,
-    "tmoy": 15.7,
-    "rh": 89,
-    "wind": 4.5,
-    "et0": 1.64,
-    "tsol": 16.4,
-    "sm": 0.203,
+    "tmoy": 15.8,
+    "rh": 90,
+    "wind": 5.0,
+    "et0": 1.63,
+    "tsol": 16.3,
+    "sm": 0.204,
     "sm_deep": 0.114
    },
    "2026-10-08": {
@@ -389,40 +395,40 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 8.8,
-    "tmin": 8.5,
-    "tmax": 13.7,
-    "tmoy": 10.8,
-    "rh": 81,
-    "wind": 9.5,
-    "et0": 0.92,
+    "rr": 6.3,
+    "tmin": 6.4,
+    "tmax": 13.9,
+    "tmoy": 11.0,
+    "rh": 75,
+    "wind": 10.6,
+    "et0": 0.79,
     "tsol": 12.1,
-    "sm": 0.269,
-    "sm_deep": 0.131
+    "sm": 0.294,
+    "sm_deep": 0.148
    },
    "2026-10-09": {
     "models": {
-     "rr": "meteofrance_arpege_europe",
-     "tmin": "meteofrance_arpege_europe",
-     "tmax": "meteofrance_arpege_europe",
-     "tmoy": "meteofrance_arpege_europe",
-     "rh": "meteofrance_arpege_europe",
+     "rr": "meteofrance_arome_france_hd",
+     "tmin": "meteofrance_arome_france_hd",
+     "tmax": "meteofrance_arome_france_hd",
+     "tmoy": "meteofrance_arome_france_hd",
+     "rh": "meteofrance_arome_france_hd",
+     "wind": "meteofrance_arome_france_hd",
      "et0": "meteofrance_arpege_europe",
-     "wind": "meteofrance_arpege_europe",
      "tsol": "best_match",
      "sm": "best_match",
      "sm_deep": "best_match"
     },
     "rr": 0.0,
-    "tmin": 7.1,
-    "tmax": 14.1,
-    "tmoy": 10.8,
-    "rh": 64,
-    "et0": 2.29,
-    "wind": 7.9,
-    "tsol": 10.9,
-    "sm": 0.242,
-    "sm_deep": 0.145
+    "tmin": 3.6,
+    "tmax": 14.2,
+    "tmoy": 10.1,
+    "rh": 68,
+    "wind": 5.4,
+    "et0": 2.21,
+    "tsol": 10.8,
+    "sm": 0.255,
+    "sm_deep": 0.177
    },
    "2026-10-10": {
     "models": {
@@ -437,16 +443,16 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 0.3,
-    "tmin": 6.5,
-    "tmax": 16.0,
-    "tmoy": 12.1,
-    "rh": 85,
-    "et0": 1.22,
-    "wind": 6.0,
-    "tsol": 13.8,
-    "sm": 0.22,
-    "sm_deep": 0.144
+    "rr": 0.0,
+    "tmin": 7.0,
+    "tmax": 16.1,
+    "tmoy": 11.7,
+    "rh": 88,
+    "et0": 0.93,
+    "wind": 5.8,
+    "tsol": 13.1,
+    "sm": 0.232,
+    "sm_deep": 0.176
    },
    "2026-10-11": {
     "models": {
@@ -462,15 +468,15 @@
      "sm_deep": "best_match"
     },
     "rr": 0.0,
-    "tmin": 6.0,
-    "tmax": 15.0,
-    "tmoy": 10.4,
-    "rh": 71,
-    "et0": 1.89,
-    "wind": 5.4,
-    "tsol": 11.9,
-    "sm": 0.206,
-    "sm_deep": 0.145
+    "tmin": 6.4,
+    "tmax": 15.7,
+    "tmoy": 10.8,
+    "rh": 70,
+    "et0": 1.94,
+    "wind": 3.9,
+    "tsol": 11.0,
+    "sm": 0.218,
+    "sm_deep": 0.175
    },
    "2026-10-12": {
     "models": {
@@ -487,14 +493,14 @@
     },
     "rr": 0.0,
     "tmin": 3.3,
-    "tmax": 16.3,
-    "tmoy": 9.5,
-    "rh": 82,
-    "et0": 2.13,
-    "tsol": 10.5,
-    "sm": 0.195,
-    "sm_deep": 0.145,
-    "wind": 5.4
+    "tmax": 17.1,
+    "tmoy": 9.3,
+    "rh": 85,
+    "et0": 2.0,
+    "tsol": 10.4,
+    "sm": 0.206,
+    "sm_deep": 0.175,
+    "wind": 3.2
    },
    "2026-10-13": {
     "models": {
@@ -510,14 +516,14 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 3.9,
-    "tmax": 20.8,
-    "tmoy": 14.0,
-    "rh": 75,
-    "et0": 2.17,
-    "tsol": 13.0,
-    "sm": 0.184,
-    "sm_deep": 0.143,
+    "tmin": 5.2,
+    "tmax": 20.9,
+    "tmoy": 13.6,
+    "rh": 81,
+    "et0": 2.12,
+    "tsol": 12.8,
+    "sm": 0.195,
+    "sm_deep": 0.174,
     "wind": 2.7
    },
    "2026-10-14": {
@@ -533,16 +539,16 @@
      "sm_deep": "best_match",
      "wind": "best_match"
     },
-    "rr": 0.3,
-    "tmin": 7.4,
-    "tmax": 19.7,
-    "tmoy": 15.0,
-    "rh": 87,
-    "et0": 1.5,
-    "tsol": 15.3,
-    "sm": 0.176,
-    "sm_deep": 0.142,
-    "wind": 6.0
+    "rr": 0.0,
+    "tmin": 11.4,
+    "tmax": 21.3,
+    "tmoy": 15.7,
+    "rh": 88,
+    "et0": 1.69,
+    "tsol": 15.1,
+    "sm": 0.185,
+    "sm_deep": 0.172,
+    "wind": 3.0
    },
    "2026-10-15": {
     "models": {
@@ -552,15 +558,21 @@
      "tmoy": "best_match",
      "rh": "best_match",
      "et0": "best_match",
+     "tsol": "best_match",
+     "sm": "best_match",
+     "sm_deep": "best_match",
      "wind": "best_match"
     },
-    "rr": 4.5,
-    "tmin": 6.5,
-    "tmax": 18.9,
-    "tmoy": 12.6,
-    "rh": 90,
-    "et0": 1.65,
-    "wind": 2.9
+    "rr": 4.8,
+    "tmin": 11.0,
+    "tmax": 22.4,
+    "tmoy": 15.7,
+    "rh": 85,
+    "et0": 1.98,
+    "tsol": 14.7,
+    "sm": 0.18,
+    "sm_deep": 0.171,
+    "wind": 4.5
    },
    "2026-10-16": {
     "models": {
@@ -572,13 +584,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 2.1,
-    "tmin": 6.5,
-    "tmax": 13.1,
-    "tmoy": 10.1,
-    "rh": 85,
-    "et0": 1.28,
-    "wind": 14.5
+    "rr": 10.8,
+    "tmin": 6.3,
+    "tmax": 13.8,
+    "tmoy": 10.2,
+    "rh": 84,
+    "et0": 1.15,
+    "wind": 13.7
    },
    "2026-10-17": {
     "models": {
@@ -590,13 +602,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 0.0,
-    "tmin": 2.5,
-    "tmax": 11.8,
-    "tmoy": 7.8,
-    "rh": 80,
-    "et0": 1.57,
-    "wind": 12.2
+    "rr": 3.6,
+    "tmin": 5.2,
+    "tmax": 6.6,
+    "tmoy": 6.1,
+    "rh": 82,
+    "et0": 1.09,
+    "wind": 27.3
    },
    "2026-10-18": {
     "models": {
@@ -609,12 +621,12 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 1.7,
-    "tmax": 14.8,
-    "tmoy": 9.4,
-    "rh": 74,
-    "et0": 1.89,
-    "wind": 5.8
+    "tmin": 4.8,
+    "tmax": 10.7,
+    "tmoy": 7.1,
+    "rh": 81,
+    "et0": 1.36,
+    "wind": 9.6
    },
    "2026-10-19": {
     "models": {
@@ -627,12 +639,12 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 8.4,
-    "tmax": 14.7,
-    "tmoy": 11.2,
-    "rh": 90,
-    "et0": 1.34,
-    "wind": 6.1
+    "tmin": 4.6,
+    "tmax": 16.4,
+    "tmoy": 9.7,
+    "rh": 79,
+    "et0": 1.88,
+    "wind": 5.5
    },
    "2026-10-20": {
     "models": {
@@ -644,13 +656,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 4.2,
-    "tmin": 7.3,
-    "tmax": 16.6,
-    "tmoy": 11.3,
-    "rh": 82,
-    "et0": 1.85,
-    "wind": 7.2
+    "rr": 0.0,
+    "tmin": 4.5,
+    "tmax": 20.1,
+    "tmoy": 12.3,
+    "rh": 79,
+    "et0": 1.98,
+    "wind": 3.6
    }
   },
   "beauzac-raide": {
@@ -691,12 +703,12 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 17.9,
+    "rr": 18.4,
     "tmin": 12.4,
     "tmax": 20.2,
     "tmoy": 14.6,
     "rh": 89,
-    "wind": 5.3,
+    "wind": 5.4,
     "et0": 1.62,
     "tsol": 14.8,
     "sm": 0.264,
@@ -715,40 +727,40 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 27.9,
-    "tmin": 6.9,
+    "rr": 19.8,
+    "tmin": 6.0,
     "tmax": 12.6,
-    "tmoy": 9.0,
-    "rh": 86,
-    "wind": 10.6,
-    "et0": 0.74,
+    "tmoy": 9.3,
+    "rh": 81,
+    "wind": 11.2,
+    "et0": 0.63,
     "tsol": 10.7,
-    "sm": 0.329,
-    "sm_deep": 0.215
+    "sm": 0.33,
+    "sm_deep": 0.204
    },
    "2026-10-09": {
     "models": {
-     "rr": "meteofrance_arpege_europe",
-     "tmin": "meteofrance_arpege_europe",
-     "tmax": "meteofrance_arpege_europe",
-     "tmoy": "meteofrance_arpege_europe",
-     "rh": "meteofrance_arpege_europe",
+     "rr": "meteofrance_arome_france_hd",
+     "tmin": "meteofrance_arome_france_hd",
+     "tmax": "meteofrance_arome_france_hd",
+     "tmoy": "meteofrance_arome_france_hd",
+     "rh": "meteofrance_arome_france_hd",
+     "wind": "meteofrance_arome_france_hd",
      "et0": "meteofrance_arpege_europe",
-     "wind": "meteofrance_arpege_europe",
      "tsol": "best_match",
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 0.2,
-    "tmin": 5.5,
+    "rr": 0.0,
+    "tmin": 3.2,
     "tmax": 12.2,
-    "tmoy": 9.1,
-    "rh": 69,
-    "et0": 2.09,
-    "wind": 8.2,
-    "tsol": 9.6,
-    "sm": 0.263,
-    "sm_deep": 0.229
+    "tmoy": 8.8,
+    "rh": 70,
+    "wind": 6.6,
+    "et0": 2.03,
+    "tsol": 9.4,
+    "sm": 0.268,
+    "sm_deep": 0.241
    },
    "2026-10-10": {
     "models": {
@@ -763,16 +775,16 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 0.4,
-    "tmin": 6.1,
-    "tmax": 14.0,
-    "tmoy": 10.7,
-    "rh": 91,
-    "et0": 1.0,
-    "wind": 5.8,
-    "tsol": 12.4,
-    "sm": 0.228,
-    "sm_deep": 0.185
+    "rr": 0.8,
+    "tmin": 6.3,
+    "tmax": 14.2,
+    "tmoy": 10.6,
+    "rh": 92,
+    "et0": 0.81,
+    "wind": 5.3,
+    "tsol": 11.8,
+    "sm": 0.254,
+    "sm_deep": 0.245
    },
    "2026-10-11": {
     "models": {
@@ -788,15 +800,15 @@
      "sm_deep": "best_match"
     },
     "rr": 0.0,
-    "tmin": 4.5,
-    "tmax": 12.9,
-    "tmoy": 8.6,
+    "tmin": 5.6,
+    "tmax": 13.8,
+    "tmoy": 9.3,
     "rh": 78,
-    "et0": 1.7,
-    "wind": 4.4,
-    "tsol": 10.4,
-    "sm": 0.221,
-    "sm_deep": 0.185
+    "et0": 1.77,
+    "wind": 3.9,
+    "tsol": 9.7,
+    "sm": 0.246,
+    "sm_deep": 0.244
    },
    "2026-10-12": {
     "models": {
@@ -812,15 +824,15 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 3.4,
-    "tmax": 14.2,
-    "tmoy": 8.8,
+    "tmin": 3.5,
+    "tmax": 15.5,
+    "tmoy": 9.1,
     "rh": 80,
-    "et0": 1.96,
-    "tsol": 9.1,
-    "sm": 0.208,
-    "sm_deep": 0.178,
-    "wind": 5.4
+    "et0": 2.03,
+    "tsol": 9.4,
+    "sm": 0.234,
+    "sm_deep": 0.239,
+    "wind": 3.8
    },
    "2026-10-13": {
     "models": {
@@ -836,15 +848,15 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 4.2,
-    "tmax": 18.5,
-    "tmoy": 13.0,
-    "rh": 64,
-    "et0": 2.16,
-    "tsol": 11.5,
-    "sm": 0.194,
-    "sm_deep": 0.168,
-    "wind": 3.1
+    "tmin": 5.7,
+    "tmax": 19.0,
+    "tmoy": 13.4,
+    "rh": 67,
+    "et0": 2.08,
+    "tsol": 11.6,
+    "sm": 0.211,
+    "sm_deep": 0.202,
+    "wind": 2.6
    },
    "2026-10-14": {
     "models": {
@@ -859,16 +871,16 @@
      "sm_deep": "best_match",
      "wind": "best_match"
     },
-    "rr": 0.3,
-    "tmin": 6.5,
-    "tmax": 17.6,
-    "tmoy": 13.6,
-    "rh": 86,
-    "et0": 1.31,
+    "rr": 0.0,
+    "tmin": 11.4,
+    "tmax": 19.6,
+    "tmoy": 14.8,
+    "rh": 83,
+    "et0": 1.64,
     "tsol": 13.6,
-    "sm": 0.186,
-    "sm_deep": 0.167,
-    "wind": 5.9
+    "sm": 0.2,
+    "sm_deep": 0.197,
+    "wind": 3.2
    },
    "2026-10-15": {
     "models": {
@@ -878,15 +890,21 @@
      "tmoy": "best_match",
      "rh": "best_match",
      "et0": "best_match",
+     "tsol": "best_match",
+     "sm": "best_match",
+     "sm_deep": "best_match",
      "wind": "best_match"
     },
-    "rr": 4.5,
-    "tmin": 5.5,
-    "tmax": 17.4,
-    "tmoy": 11.4,
-    "rh": 88,
-    "et0": 1.59,
-    "wind": 3.1
+    "rr": 1.2,
+    "tmin": 9.5,
+    "tmax": 21.2,
+    "tmoy": 14.6,
+    "rh": 84,
+    "et0": 1.91,
+    "tsol": 13.5,
+    "sm": 0.195,
+    "sm_deep": 0.195,
+    "wind": 4.2
    },
    "2026-10-16": {
     "models": {
@@ -898,13 +916,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 2.7,
+    "rr": 11.4,
     "tmin": 5.2,
-    "tmax": 11.9,
-    "tmoy": 8.8,
-    "rh": 84,
-    "et0": 1.18,
-    "wind": 12.4
+    "tmax": 12.6,
+    "tmoy": 8.9,
+    "rh": 83,
+    "et0": 1.04,
+    "wind": 11.3
    },
    "2026-10-17": {
     "models": {
@@ -916,13 +934,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 0.0,
-    "tmin": 1.1,
-    "tmax": 10.5,
-    "tmoy": 6.2,
+    "rr": 3.6,
+    "tmin": 4.1,
+    "tmax": 5.5,
+    "tmoy": 5.0,
     "rh": 81,
-    "et0": 1.39,
-    "wind": 9.6
+    "et0": 1.07,
+    "wind": 24.6
    },
    "2026-10-18": {
     "models": {
@@ -935,12 +953,12 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 0.7,
-    "tmax": 13.5,
-    "tmoy": 8.1,
-    "rh": 72,
-    "et0": 1.76,
-    "wind": 4.2
+    "tmin": 3.0,
+    "tmax": 9.2,
+    "tmoy": 5.8,
+    "rh": 81,
+    "et0": 1.25,
+    "wind": 7.6
    },
    "2026-10-19": {
     "models": {
@@ -953,12 +971,12 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 7.2,
-    "tmax": 13.7,
-    "tmoy": 9.7,
-    "rh": 88,
-    "et0": 1.28,
-    "wind": 5.4
+    "tmin": 3.0,
+    "tmax": 15.2,
+    "tmoy": 8.4,
+    "rh": 80,
+    "et0": 1.76,
+    "wind": 4.1
    },
    "2026-10-20": {
     "models": {
@@ -970,13 +988,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 3.6,
-    "tmin": 6.4,
-    "tmax": 15.0,
-    "tmoy": 9.8,
-    "rh": 83,
-    "et0": 1.78,
-    "wind": 6.3
+    "rr": 0.0,
+    "tmin": 3.5,
+    "tmax": 19.2,
+    "tmoy": 11.1,
+    "rh": 78,
+    "et0": 1.92,
+    "wind": 2.4
    }
   },
   "chambon-loire": {
@@ -1017,15 +1035,15 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 12.3,
-    "tmin": 12.5,
+    "rr": 12.4,
+    "tmin": 12.9,
     "tmax": 19.8,
     "tmoy": 15.1,
     "rh": 91,
-    "wind": 4.2,
-    "et0": 1.64,
+    "wind": 4.3,
+    "et0": 1.63,
     "tsol": 15.0,
-    "sm": 0.219,
+    "sm": 0.221,
     "sm_deep": 0.114
    },
    "2026-10-08": {
@@ -1041,40 +1059,40 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 13.2,
-    "tmin": 7.2,
-    "tmax": 13.0,
-    "tmoy": 9.9,
-    "rh": 86,
-    "wind": 9.1,
-    "et0": 0.9,
+    "rr": 8.0,
+    "tmin": 6.0,
+    "tmax": 13.2,
+    "tmoy": 10.4,
+    "rh": 78,
+    "wind": 9.4,
+    "et0": 0.76,
     "tsol": 11.4,
-    "sm": 0.304,
-    "sm_deep": 0.141
+    "sm": 0.335,
+    "sm_deep": 0.192
    },
    "2026-10-09": {
     "models": {
-     "rr": "meteofrance_arpege_europe",
-     "tmin": "meteofrance_arpege_europe",
-     "tmax": "meteofrance_arpege_europe",
-     "tmoy": "meteofrance_arpege_europe",
-     "rh": "meteofrance_arpege_europe",
+     "rr": "meteofrance_arome_france_hd",
+     "tmin": "meteofrance_arome_france_hd",
+     "tmax": "meteofrance_arome_france_hd",
+     "tmoy": "meteofrance_arome_france_hd",
+     "rh": "meteofrance_arome_france_hd",
+     "wind": "meteofrance_arome_france_hd",
      "et0": "meteofrance_arpege_europe",
-     "wind": "meteofrance_arpege_europe",
      "tsol": "best_match",
      "sm": "best_match",
      "sm_deep": "best_match"
     },
     "rr": 0.0,
-    "tmin": 6.5,
-    "tmax": 13.5,
-    "tmoy": 10.2,
-    "rh": 64,
-    "et0": 2.27,
-    "wind": 7.9,
+    "tmin": 3.8,
+    "tmax": 13.4,
+    "tmoy": 9.6,
+    "rh": 68,
+    "wind": 4.4,
+    "et0": 2.2,
     "tsol": 9.8,
-    "sm": 0.257,
-    "sm_deep": 0.158
+    "sm": 0.278,
+    "sm_deep": 0.242
    },
    "2026-10-10": {
     "models": {
@@ -1089,16 +1107,16 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 0.3,
-    "tmin": 5.9,
-    "tmax": 15.4,
-    "tmoy": 11.5,
-    "rh": 85,
-    "et0": 1.18,
-    "wind": 6.0,
-    "tsol": 13.2,
-    "sm": 0.22,
-    "sm_deep": 0.144
+    "rr": 0.0,
+    "tmin": 6.4,
+    "tmax": 15.5,
+    "tmoy": 11.1,
+    "rh": 88,
+    "et0": 0.92,
+    "wind": 5.8,
+    "tsol": 12.3,
+    "sm": 0.24,
+    "sm_deep": 0.196
    },
    "2026-10-11": {
     "models": {
@@ -1114,15 +1132,15 @@
      "sm_deep": "best_match"
     },
     "rr": 0.0,
-    "tmin": 5.4,
-    "tmax": 14.4,
-    "tmoy": 9.8,
-    "rh": 71,
-    "et0": 1.86,
-    "wind": 5.4,
-    "tsol": 11.3,
-    "sm": 0.206,
-    "sm_deep": 0.145
+    "tmin": 5.8,
+    "tmax": 15.1,
+    "tmoy": 10.2,
+    "rh": 70,
+    "et0": 1.93,
+    "wind": 3.9,
+    "tsol": 10.4,
+    "sm": 0.218,
+    "sm_deep": 0.175
    },
    "2026-10-12": {
     "models": {
@@ -1139,14 +1157,14 @@
     },
     "rr": 0.0,
     "tmin": 2.7,
-    "tmax": 15.7,
-    "tmoy": 9.1,
-    "rh": 81,
-    "et0": 2.08,
-    "tsol": 10.1,
-    "sm": 0.193,
-    "sm_deep": 0.136,
-    "wind": 6.5
+    "tmax": 16.5,
+    "tmoy": 8.7,
+    "rh": 85,
+    "et0": 1.98,
+    "tsol": 9.8,
+    "sm": 0.206,
+    "sm_deep": 0.175,
+    "wind": 3.2
    },
    "2026-10-13": {
     "models": {
@@ -1162,15 +1180,15 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 4.5,
-    "tmax": 19.0,
-    "tmoy": 13.9,
-    "rh": 67,
-    "et0": 2.2,
-    "tsol": 12.9,
-    "sm": 0.181,
-    "sm_deep": 0.124,
-    "wind": 4.1
+    "tmin": 5.1,
+    "tmax": 19.7,
+    "tmoy": 14.0,
+    "rh": 70,
+    "et0": 2.15,
+    "tsol": 12.8,
+    "sm": 0.205,
+    "sm_deep": 0.167,
+    "wind": 3.6
    },
    "2026-10-14": {
     "models": {
@@ -1185,16 +1203,16 @@
      "sm_deep": "best_match",
      "wind": "best_match"
     },
-    "rr": 0.9,
-    "tmin": 7.2,
-    "tmax": 18.7,
-    "tmoy": 14.3,
-    "rh": 86,
-    "et0": 1.34,
-    "tsol": 14.8,
-    "sm": 0.174,
-    "sm_deep": 0.124,
-    "wind": 7.5
+    "rr": 0.0,
+    "tmin": 12.6,
+    "tmax": 20.1,
+    "tmoy": 15.6,
+    "rh": 84,
+    "et0": 1.59,
+    "tsol": 15.0,
+    "sm": 0.195,
+    "sm_deep": 0.166,
+    "wind": 4.3
    },
    "2026-10-15": {
     "models": {
@@ -1204,15 +1222,21 @@
      "tmoy": "best_match",
      "rh": "best_match",
      "et0": "best_match",
+     "tsol": "best_match",
+     "sm": "best_match",
+     "sm_deep": "best_match",
      "wind": "best_match"
     },
-    "rr": 3.9,
-    "tmin": 6.5,
-    "tmax": 17.8,
-    "tmoy": 12.2,
-    "rh": 90,
-    "et0": 1.57,
-    "wind": 5.1
+    "rr": 7.2,
+    "tmin": 10.4,
+    "tmax": 21.3,
+    "tmoy": 15.1,
+    "rh": 83,
+    "et0": 1.89,
+    "tsol": 14.6,
+    "sm": 0.188,
+    "sm_deep": 0.166,
+    "wind": 4.1
    },
    "2026-10-16": {
     "models": {
@@ -1224,13 +1248,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 0.9,
-    "tmin": 5.1,
-    "tmax": 11.3,
-    "tmoy": 8.8,
-    "rh": 87,
-    "et0": 1.13,
-    "wind": 17.4
+    "rr": 14.1,
+    "tmin": 4.6,
+    "tmax": 11.5,
+    "tmoy": 8.9,
+    "rh": 86,
+    "et0": 1.0,
+    "wind": 16.7
    },
    "2026-10-17": {
     "models": {
@@ -1242,13 +1266,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 0.0,
-    "tmin": 2.5,
-    "tmax": 10.9,
-    "tmoy": 7.3,
-    "rh": 81,
-    "et0": 1.38,
-    "wind": 12.1
+    "rr": 3.9,
+    "tmin": 4.0,
+    "tmax": 6.6,
+    "tmoy": 5.2,
+    "rh": 83,
+    "et0": 1.01,
+    "wind": 27.1
    },
    "2026-10-18": {
     "models": {
@@ -1261,12 +1285,12 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 1.2,
-    "tmax": 13.1,
-    "tmoy": 8.5,
-    "rh": 75,
-    "et0": 1.87,
-    "wind": 7.9
+    "tmin": 4.7,
+    "tmax": 9.6,
+    "tmoy": 6.9,
+    "rh": 80,
+    "et0": 1.34,
+    "wind": 9.0
    },
    "2026-10-19": {
     "models": {
@@ -1279,12 +1303,12 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 7.8,
-    "tmax": 12.2,
-    "tmoy": 10.1,
-    "rh": 91,
-    "et0": 1.1,
-    "wind": 8.0
+    "tmin": 4.3,
+    "tmax": 14.9,
+    "tmoy": 9.0,
+    "rh": 79,
+    "et0": 1.79,
+    "wind": 5.1
    },
    "2026-10-20": {
     "models": {
@@ -1296,13 +1320,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 4.2,
-    "tmin": 7.1,
-    "tmax": 15.9,
-    "tmoy": 10.8,
+    "rr": 0.0,
+    "tmin": 4.2,
+    "tmax": 18.6,
+    "tmoy": 11.5,
     "rh": 82,
-    "et0": 1.81,
-    "wind": 6.4
+    "et0": 1.9,
+    "wind": 4.1
    }
   },
   "champeau": {
@@ -1343,14 +1367,14 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 14.8,
-    "tmin": 12.1,
+    "rr": 14.9,
+    "tmin": 12.5,
     "tmax": 18.9,
     "tmoy": 14.3,
-    "rh": 88,
-    "wind": 10.9,
-    "et0": 1.49,
-    "tsol": 14.8,
+    "rh": 89,
+    "wind": 11.0,
+    "et0": 1.5,
+    "tsol": 14.7,
     "sm": 0.248,
     "sm_deep": 0.131
    },
@@ -1367,40 +1391,40 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 15.4,
-    "tmin": 5.5,
+    "rr": 13.9,
+    "tmin": 4.5,
     "tmax": 12.1,
-    "tmoy": 8.2,
-    "rh": 92,
-    "wind": 14.4,
-    "et0": 0.58,
-    "tsol": 10.5,
-    "sm": 0.321,
-    "sm_deep": 0.18
+    "tmoy": 8.4,
+    "rh": 88,
+    "wind": 13.9,
+    "et0": 0.45,
+    "tsol": 10.6,
+    "sm": 0.332,
+    "sm_deep": 0.208
    },
    "2026-10-09": {
     "models": {
-     "rr": "meteofrance_arpege_europe",
-     "tmin": "meteofrance_arpege_europe",
-     "tmax": "meteofrance_arpege_europe",
-     "tmoy": "meteofrance_arpege_europe",
-     "rh": "meteofrance_arpege_europe",
+     "rr": "meteofrance_arome_france_hd",
+     "tmin": "meteofrance_arome_france_hd",
+     "tmax": "meteofrance_arome_france_hd",
+     "tmoy": "meteofrance_arome_france_hd",
+     "rh": "meteofrance_arome_france_hd",
+     "wind": "meteofrance_arome_france_hd",
      "et0": "meteofrance_arpege_europe",
-     "wind": "meteofrance_arpege_europe",
      "tsol": "best_match",
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 0.0,
-    "tmin": 4.7,
-    "tmax": 11.4,
-    "tmoy": 8.1,
-    "rh": 70,
-    "et0": 2.03,
-    "wind": 9.5,
-    "tsol": 9.1,
-    "sm": 0.263,
-    "sm_deep": 0.208
+    "rr": 0.1,
+    "tmin": 1.5,
+    "tmax": 11.2,
+    "tmoy": 7.7,
+    "rh": 75,
+    "wind": 8.0,
+    "et0": 1.91,
+    "tsol": 9.2,
+    "sm": 0.275,
+    "sm_deep": 0.246
    },
    "2026-10-10": {
     "models": {
@@ -1415,16 +1439,16 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 0.3,
-    "tmin": 5.8,
-    "tmax": 13.9,
-    "tmoy": 9.9,
-    "rh": 90,
-    "et0": 0.96,
-    "wind": 6.6,
-    "tsol": 11.7,
-    "sm": 0.23,
-    "sm_deep": 0.201
+    "rr": 0.5,
+    "tmin": 5.1,
+    "tmax": 13.8,
+    "tmoy": 9.6,
+    "rh": 93,
+    "et0": 0.83,
+    "wind": 6.8,
+    "tsol": 11.2,
+    "sm": 0.257,
+    "sm_deep": 0.25
    },
    "2026-10-11": {
     "models": {
@@ -1440,15 +1464,15 @@
      "sm_deep": "best_match"
     },
     "rr": 0.0,
-    "tmin": 4.1,
-    "tmax": 11.9,
+    "tmin": 4.2,
+    "tmax": 12.3,
     "tmoy": 8.1,
-    "rh": 79,
-    "et0": 1.6,
-    "wind": 5.7,
-    "tsol": 9.8,
-    "sm": 0.219,
-    "sm_deep": 0.2
+    "rh": 82,
+    "et0": 1.68,
+    "wind": 5.9,
+    "tsol": 9.1,
+    "sm": 0.244,
+    "sm_deep": 0.248
    },
    "2026-10-12": {
     "models": {
@@ -1464,15 +1488,15 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 4.6,
-    "tmax": 13.2,
-    "tmoy": 8.6,
-    "rh": 82,
-    "et0": 1.85,
-    "tsol": 8.4,
-    "sm": 0.211,
-    "sm_deep": 0.196,
-    "wind": 6.2
+    "tmin": 3.9,
+    "tmax": 14.6,
+    "tmoy": 9.0,
+    "rh": 79,
+    "et0": 1.97,
+    "tsol": 8.9,
+    "sm": 0.233,
+    "sm_deep": 0.242,
+    "wind": 5.0
    },
    "2026-10-13": {
     "models": {
@@ -1488,15 +1512,15 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 4.5,
-    "tmax": 17.3,
-    "tmoy": 12.5,
+    "tmin": 6.6,
+    "tmax": 18.0,
+    "tmoy": 13.1,
     "rh": 66,
-    "et0": 2.12,
-    "tsol": 10.6,
-    "sm": 0.204,
-    "sm_deep": 0.191,
-    "wind": 3.7
+    "et0": 2.06,
+    "tsol": 10.9,
+    "sm": 0.235,
+    "sm_deep": 0.244,
+    "wind": 2.8
    },
    "2026-10-14": {
     "models": {
@@ -1511,16 +1535,16 @@
      "sm_deep": "best_match",
      "wind": "best_match"
     },
-    "rr": 0.6,
-    "tmin": 6.5,
-    "tmax": 16.6,
-    "tmoy": 13.0,
-    "rh": 90,
-    "et0": 1.12,
-    "tsol": 13.2,
-    "sm": 0.196,
-    "sm_deep": 0.189,
-    "wind": 7.3
+    "rr": 0.0,
+    "tmin": 11.8,
+    "tmax": 18.6,
+    "tmoy": 14.4,
+    "rh": 85,
+    "et0": 1.5,
+    "tsol": 12.8,
+    "sm": 0.226,
+    "sm_deep": 0.239,
+    "wind": 3.0
    },
    "2026-10-15": {
     "models": {
@@ -1530,15 +1554,21 @@
      "tmoy": "best_match",
      "rh": "best_match",
      "et0": "best_match",
+     "tsol": "best_match",
+     "sm": "best_match",
+     "sm_deep": "best_match",
      "wind": "best_match"
     },
-    "rr": 4.5,
-    "tmin": 5.8,
-    "tmax": 17.0,
-    "tmoy": 11.4,
-    "rh": 91,
-    "et0": 1.56,
-    "wind": 5.1
+    "rr": 4.2,
+    "tmin": 10.0,
+    "tmax": 20.6,
+    "tmoy": 14.3,
+    "rh": 84,
+    "et0": 1.88,
+    "tsol": 12.8,
+    "sm": 0.222,
+    "sm_deep": 0.236,
+    "wind": 5.3
    },
    "2026-10-16": {
     "models": {
@@ -1550,13 +1580,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 1.5,
-    "tmin": 4.6,
-    "tmax": 10.5,
-    "tmoy": 8.1,
-    "rh": 88,
-    "et0": 1.04,
-    "wind": 16.9
+    "rr": 12.0,
+    "tmin": 3.9,
+    "tmax": 11.1,
+    "tmoy": 8.2,
+    "rh": 86,
+    "et0": 0.95,
+    "wind": 16.5
    },
    "2026-10-17": {
     "models": {
@@ -1568,13 +1598,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 0.0,
-    "tmin": 1.4,
-    "tmax": 9.8,
-    "tmoy": 6.2,
-    "rh": 84,
-    "et0": 1.27,
-    "wind": 11.6
+    "rr": 4.8,
+    "tmin": 3.2,
+    "tmax": 5.2,
+    "tmoy": 4.3,
+    "rh": 85,
+    "et0": 0.84,
+    "wind": 27.5
    },
    "2026-10-18": {
     "models": {
@@ -1587,12 +1617,12 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 0.4,
-    "tmax": 12.5,
-    "tmoy": 7.6,
-    "rh": 76,
-    "et0": 1.79,
-    "wind": 7.5
+    "tmin": 3.3,
+    "tmax": 8.9,
+    "tmoy": 5.9,
+    "rh": 82,
+    "et0": 1.26,
+    "wind": 8.8
    },
    "2026-10-19": {
     "models": {
@@ -1605,12 +1635,12 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 7.0,
-    "tmax": 11.5,
-    "tmoy": 9.3,
-    "rh": 93,
-    "et0": 1.06,
-    "wind": 7.5
+    "tmin": 3.4,
+    "tmax": 14.5,
+    "tmoy": 8.1,
+    "rh": 82,
+    "et0": 1.73,
+    "wind": 5.8
    },
    "2026-10-20": {
     "models": {
@@ -1622,13 +1652,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 4.2,
-    "tmin": 6.5,
-    "tmax": 14.5,
-    "tmoy": 9.7,
-    "rh": 83,
-    "et0": 1.75,
-    "wind": 7.3
+    "rr": 0.0,
+    "tmin": 3.3,
+    "tmax": 18.5,
+    "tmoy": 10.8,
+    "rh": 84,
+    "et0": 1.88,
+    "wind": 3.6
    }
   },
   "chazeaux": {
@@ -1669,12 +1699,12 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 17.8,
-    "tmin": 12.0,
+    "rr": 18.3,
+    "tmin": 12.2,
     "tmax": 19.6,
-    "tmoy": 14.4,
+    "tmoy": 14.5,
     "rh": 89,
-    "wind": 8.4,
+    "wind": 8.3,
     "et0": 1.51,
     "tsol": 14.8,
     "sm": 0.247,
@@ -1693,40 +1723,40 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 21.6,
-    "tmin": 6.2,
+    "rr": 19.1,
+    "tmin": 5.3,
     "tmax": 12.4,
-    "tmoy": 8.6,
-    "rh": 90,
+    "tmoy": 8.9,
+    "rh": 84,
     "wind": 13.3,
-    "et0": 0.58,
-    "tsol": 10.6,
-    "sm": 0.325,
-    "sm_deep": 0.195
+    "et0": 0.45,
+    "tsol": 10.7,
+    "sm": 0.327,
+    "sm_deep": 0.213
    },
    "2026-10-09": {
     "models": {
-     "rr": "meteofrance_arpege_europe",
-     "tmin": "meteofrance_arpege_europe",
-     "tmax": "meteofrance_arpege_europe",
-     "tmoy": "meteofrance_arpege_europe",
-     "rh": "meteofrance_arpege_europe",
+     "rr": "meteofrance_arome_france_hd",
+     "tmin": "meteofrance_arome_france_hd",
+     "tmax": "meteofrance_arome_france_hd",
+     "tmoy": "meteofrance_arome_france_hd",
+     "rh": "meteofrance_arome_france_hd",
+     "wind": "meteofrance_arome_france_hd",
      "et0": "meteofrance_arpege_europe",
-     "wind": "meteofrance_arpege_europe",
      "tsol": "best_match",
      "sm": "best_match",
      "sm_deep": "best_match"
     },
     "rr": 0.0,
-    "tmin": 5.0,
-    "tmax": 11.7,
-    "tmoy": 8.4,
-    "rh": 70,
-    "et0": 2.04,
-    "wind": 9.5,
-    "tsol": 9.2,
-    "sm": 0.261,
-    "sm_deep": 0.218
+    "tmin": 2.4,
+    "tmax": 11.6,
+    "tmoy": 8.1,
+    "rh": 73,
+    "wind": 7.3,
+    "et0": 1.92,
+    "tsol": 9.3,
+    "sm": 0.267,
+    "sm_deep": 0.252
    },
    "2026-10-10": {
     "models": {
@@ -1741,16 +1771,16 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 0.3,
-    "tmin": 6.1,
-    "tmax": 14.2,
-    "tmoy": 10.2,
-    "rh": 90,
-    "et0": 0.98,
-    "wind": 6.6,
-    "tsol": 12.1,
-    "sm": 0.227,
-    "sm_deep": 0.188
+    "rr": 0.5,
+    "tmin": 5.4,
+    "tmax": 14.1,
+    "tmoy": 9.9,
+    "rh": 93,
+    "et0": 0.83,
+    "wind": 6.8,
+    "tsol": 11.4,
+    "sm": 0.247,
+    "sm_deep": 0.238
    },
    "2026-10-11": {
     "models": {
@@ -1766,15 +1796,15 @@
      "sm_deep": "best_match"
     },
     "rr": 0.0,
-    "tmin": 4.4,
-    "tmax": 12.2,
+    "tmin": 4.5,
+    "tmax": 12.6,
     "tmoy": 8.4,
-    "rh": 79,
-    "et0": 1.61,
-    "wind": 5.7,
-    "tsol": 10.2,
-    "sm": 0.215,
-    "sm_deep": 0.188
+    "rh": 82,
+    "et0": 1.69,
+    "wind": 5.9,
+    "tsol": 9.3,
+    "sm": 0.234,
+    "sm_deep": 0.231
    },
    "2026-10-12": {
     "models": {
@@ -1790,15 +1820,15 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 3.1,
-    "tmax": 14.1,
-    "tmoy": 8.5,
-    "rh": 80,
-    "et0": 1.93,
-    "tsol": 8.7,
-    "sm": 0.204,
-    "sm_deep": 0.179,
-    "wind": 5.4
+    "tmin": 2.5,
+    "tmax": 15.3,
+    "tmoy": 8.2,
+    "rh": 82,
+    "et0": 1.99,
+    "tsol": 8.9,
+    "sm": 0.223,
+    "sm_deep": 0.226,
+    "wind": 3.8
    },
    "2026-10-13": {
     "models": {
@@ -1814,15 +1844,15 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 3.9,
-    "tmax": 18.2,
-    "tmoy": 12.8,
-    "rh": 64,
-    "et0": 2.15,
+    "tmin": 4.6,
+    "tmax": 18.7,
+    "tmoy": 13.0,
+    "rh": 67,
+    "et0": 2.07,
     "tsol": 11.2,
-    "sm": 0.194,
-    "sm_deep": 0.168,
-    "wind": 3.1
+    "sm": 0.21,
+    "sm_deep": 0.201,
+    "wind": 2.6
    },
    "2026-10-14": {
     "models": {
@@ -1837,16 +1867,16 @@
      "sm_deep": "best_match",
      "wind": "best_match"
     },
-    "rr": 0.3,
-    "tmin": 6.9,
-    "tmax": 17.3,
-    "tmoy": 13.4,
-    "rh": 86,
-    "et0": 1.31,
+    "rr": 0.0,
+    "tmin": 11.1,
+    "tmax": 19.3,
+    "tmoy": 14.5,
+    "rh": 83,
+    "et0": 1.63,
     "tsol": 13.3,
-    "sm": 0.186,
-    "sm_deep": 0.167,
-    "wind": 6.0
+    "sm": 0.2,
+    "sm_deep": 0.197,
+    "wind": 3.2
    },
    "2026-10-15": {
     "models": {
@@ -1856,15 +1886,21 @@
      "tmoy": "best_match",
      "rh": "best_match",
      "et0": "best_match",
+     "tsol": "best_match",
+     "sm": "best_match",
+     "sm_deep": "best_match",
      "wind": "best_match"
     },
-    "rr": 3.9,
-    "tmin": 6.2,
-    "tmax": 16.1,
-    "tmoy": 11.0,
-    "rh": 91,
-    "et0": 1.55,
-    "wind": 4.3
+    "rr": 4.2,
+    "tmin": 10.3,
+    "tmax": 20.4,
+    "tmoy": 14.3,
+    "rh": 83,
+    "et0": 1.9,
+    "tsol": 13.2,
+    "sm": 0.195,
+    "sm_deep": 0.195,
+    "wind": 5.2
    },
    "2026-10-16": {
     "models": {
@@ -1876,13 +1912,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 3.0,
-    "tmin": 4.2,
-    "tmax": 10.0,
-    "tmoy": 7.6,
-    "rh": 90,
-    "et0": 0.98,
-    "wind": 15.7
+    "rr": 14.7,
+    "tmin": 3.6,
+    "tmax": 11.2,
+    "tmoy": 8.0,
+    "rh": 86,
+    "et0": 0.95,
+    "wind": 15.8
    },
    "2026-10-17": {
     "models": {
@@ -1894,13 +1930,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 0.9,
-    "tmin": 1.1,
-    "tmax": 9.1,
-    "tmoy": 5.6,
-    "rh": 86,
-    "et0": 1.14,
-    "wind": 10.6
+    "rr": 6.6,
+    "tmin": 2.9,
+    "tmax": 4.3,
+    "tmoy": 3.7,
+    "rh": 88,
+    "et0": 0.72,
+    "wind": 26.2
    },
    "2026-10-18": {
     "models": {
@@ -1912,13 +1948,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 0.0,
-    "tmin": 0.5,
-    "tmax": 12.0,
-    "tmoy": 7.1,
-    "rh": 78,
-    "et0": 1.7,
-    "wind": 6.6
+    "rr": 0.3,
+    "tmin": 2.8,
+    "tmax": 8.4,
+    "tmoy": 5.3,
+    "rh": 83,
+    "et0": 1.2,
+    "wind": 8.4
    },
    "2026-10-19": {
     "models": {
@@ -1931,12 +1967,12 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 6.6,
-    "tmax": 11.2,
-    "tmoy": 8.7,
-    "rh": 94,
-    "et0": 1.03,
-    "wind": 6.9
+    "tmin": 2.9,
+    "tmax": 14.8,
+    "tmoy": 8.2,
+    "rh": 82,
+    "et0": 1.74,
+    "wind": 4.7
    },
    "2026-10-20": {
     "models": {
@@ -1948,13 +1984,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 3.9,
-    "tmin": 6.1,
-    "tmax": 13.8,
-    "tmoy": 9.1,
-    "rh": 84,
-    "et0": 1.71,
-    "wind": 7.6
+    "rr": 0.0,
+    "tmin": 4.1,
+    "tmax": 19.0,
+    "tmoy": 11.3,
+    "rh": 81,
+    "et0": 1.95,
+    "wind": 4.3
    }
   },
   "malvalette-garay": {
@@ -1995,16 +2031,16 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 12.8,
-    "tmin": 12.4,
+    "rr": 13.0,
+    "tmin": 12.9,
     "tmax": 18.6,
-    "tmoy": 14.7,
-    "rh": 91,
-    "wind": 5.6,
+    "tmoy": 14.8,
+    "rh": 92,
+    "wind": 6.0,
     "et0": 1.53,
     "tsol": 14.7,
     "sm": 0.241,
-    "sm_deep": 0.118
+    "sm_deep": 0.119
    },
    "2026-10-08": {
     "models": {
@@ -2019,40 +2055,40 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 11.5,
-    "tmin": 6.9,
-    "tmax": 13.0,
-    "tmoy": 9.1,
-    "rh": 86,
-    "wind": 12.5,
-    "et0": 0.78,
-    "tsol": 10.9,
-    "sm": 0.304,
-    "sm_deep": 0.149
+    "rr": 6.6,
+    "tmin": 6.0,
+    "tmax": 12.9,
+    "tmoy": 9.5,
+    "rh": 79,
+    "wind": 11.8,
+    "et0": 0.62,
+    "tsol": 11.0,
+    "sm": 0.329,
+    "sm_deep": 0.183
    },
    "2026-10-09": {
     "models": {
-     "rr": "meteofrance_arpege_europe",
-     "tmin": "meteofrance_arpege_europe",
-     "tmax": "meteofrance_arpege_europe",
-     "tmoy": "meteofrance_arpege_europe",
-     "rh": "meteofrance_arpege_europe",
+     "rr": "meteofrance_arome_france_hd",
+     "tmin": "meteofrance_arome_france_hd",
+     "tmax": "meteofrance_arome_france_hd",
+     "tmoy": "meteofrance_arome_france_hd",
+     "rh": "meteofrance_arome_france_hd",
+     "wind": "meteofrance_arome_france_hd",
      "et0": "meteofrance_arpege_europe",
-     "wind": "meteofrance_arpege_europe",
      "tsol": "best_match",
      "sm": "best_match",
      "sm_deep": "best_match"
     },
     "rr": 0.0,
-    "tmin": 5.8,
-    "tmax": 12.3,
-    "tmoy": 9.2,
-    "rh": 69,
-    "et0": 2.13,
-    "wind": 10.8,
+    "tmin": 3.5,
+    "tmax": 12.5,
+    "tmoy": 8.9,
+    "rh": 71,
+    "wind": 5.2,
+    "et0": 2.08,
     "tsol": 9.5,
-    "sm": 0.258,
-    "sm_deep": 0.176
+    "sm": 0.278,
+    "sm_deep": 0.232
    },
    "2026-10-10": {
     "models": {
@@ -2067,16 +2103,16 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 0.3,
-    "tmin": 6.2,
-    "tmax": 14.5,
-    "tmoy": 10.9,
-    "rh": 87,
-    "et0": 1.09,
-    "wind": 6.4,
-    "tsol": 12.7,
-    "sm": 0.223,
-    "sm_deep": 0.181
+    "rr": 0.0,
+    "tmin": 5.9,
+    "tmax": 14.3,
+    "tmoy": 10.3,
+    "rh": 91,
+    "et0": 0.89,
+    "wind": 6.9,
+    "tsol": 11.9,
+    "sm": 0.244,
+    "sm_deep": 0.226
    },
    "2026-10-11": {
     "models": {
@@ -2092,15 +2128,15 @@
      "sm_deep": "best_match"
     },
     "rr": 0.0,
-    "tmin": 5.2,
-    "tmax": 12.7,
-    "tmoy": 9.0,
+    "tmin": 5.5,
+    "tmax": 13.1,
+    "tmoy": 9.3,
     "rh": 76,
-    "et0": 1.78,
-    "wind": 9.0,
-    "tsol": 11.0,
-    "sm": 0.211,
-    "sm_deep": 0.18
+    "et0": 1.86,
+    "wind": 6.4,
+    "tsol": 10.1,
+    "sm": 0.227,
+    "sm_deep": 0.22
    },
    "2026-10-12": {
     "models": {
@@ -2117,14 +2153,14 @@
     },
     "rr": 0.0,
     "tmin": 3.3,
-    "tmax": 14.5,
-    "tmoy": 8.6,
-    "rh": 81,
-    "et0": 2.05,
-    "tsol": 9.7,
-    "sm": 0.198,
-    "sm_deep": 0.165,
-    "wind": 7.0
+    "tmax": 15.5,
+    "tmoy": 9.0,
+    "rh": 83,
+    "et0": 2.0,
+    "tsol": 10.0,
+    "sm": 0.216,
+    "sm_deep": 0.216,
+    "wind": 5.1
    },
    "2026-10-13": {
     "models": {
@@ -2140,15 +2176,15 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 2.5,
-    "tmax": 19.4,
-    "tmoy": 12.6,
-    "rh": 75,
-    "et0": 2.11,
-    "tsol": 11.6,
-    "sm": 0.184,
-    "sm_deep": 0.143,
-    "wind": 2.7
+    "tmin": 4.9,
+    "tmax": 19.5,
+    "tmoy": 12.4,
+    "rh": 80,
+    "et0": 2.07,
+    "tsol": 11.5,
+    "sm": 0.195,
+    "sm_deep": 0.176,
+    "wind": 2.9
    },
    "2026-10-14": {
     "models": {
@@ -2163,16 +2199,16 @@
      "sm_deep": "best_match",
      "wind": "best_match"
     },
-    "rr": 0.3,
-    "tmin": 6.5,
-    "tmax": 18.3,
-    "tmoy": 13.7,
-    "rh": 87,
-    "et0": 1.45,
-    "tsol": 13.9,
-    "sm": 0.176,
-    "sm_deep": 0.142,
-    "wind": 5.8
+    "rr": 0.0,
+    "tmin": 10.0,
+    "tmax": 19.9,
+    "tmoy": 14.3,
+    "rh": 88,
+    "et0": 1.66,
+    "tsol": 13.7,
+    "sm": 0.185,
+    "sm_deep": 0.172,
+    "wind": 3.0
    },
    "2026-10-15": {
     "models": {
@@ -2182,15 +2218,21 @@
      "tmoy": "best_match",
      "rh": "best_match",
      "et0": "best_match",
+     "tsol": "best_match",
+     "sm": "best_match",
+     "sm_deep": "best_match",
      "wind": "best_match"
     },
-    "rr": 7.5,
-    "tmin": 5.7,
-    "tmax": 16.7,
-    "tmoy": 11.0,
-    "rh": 90,
-    "et0": 1.52,
-    "wind": 3.0
+    "rr": 6.0,
+    "tmin": 9.8,
+    "tmax": 20.3,
+    "tmoy": 14.1,
+    "rh": 86,
+    "et0": 1.87,
+    "tsol": 13.3,
+    "sm": 0.18,
+    "sm_deep": 0.171,
+    "wind": 3.9
    },
    "2026-10-16": {
     "models": {
@@ -2202,13 +2244,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 2.7,
-    "tmin": 4.5,
-    "tmax": 10.9,
-    "tmoy": 8.0,
-    "rh": 87,
-    "et0": 1.16,
-    "wind": 16.6
+    "rr": 10.8,
+    "tmin": 4.0,
+    "tmax": 11.2,
+    "tmoy": 8.2,
+    "rh": 85,
+    "et0": 1.0,
+    "wind": 15.6
    },
    "2026-10-17": {
     "models": {
@@ -2220,13 +2262,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 0.0,
-    "tmin": 1.6,
-    "tmax": 9.7,
-    "tmoy": 6.1,
-    "rh": 80,
-    "et0": 1.43,
-    "wind": 14.0
+    "rr": 5.1,
+    "tmin": 3.1,
+    "tmax": 4.6,
+    "tmoy": 4.0,
+    "rh": 86,
+    "et0": 0.85,
+    "wind": 28.6
    },
    "2026-10-18": {
     "models": {
@@ -2238,13 +2280,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 0.0,
-    "tmin": 0.6,
-    "tmax": 12.5,
-    "tmoy": 7.8,
-    "rh": 75,
-    "et0": 1.82,
-    "wind": 7.5
+    "rr": 0.3,
+    "tmin": 3.1,
+    "tmax": 8.7,
+    "tmoy": 5.5,
+    "rh": 82,
+    "et0": 1.23,
+    "wind": 10.9
    },
    "2026-10-19": {
     "models": {
@@ -2257,12 +2299,12 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 6.2,
-    "tmax": 12.4,
-    "tmoy": 9.4,
-    "rh": 92,
-    "et0": 1.23,
-    "wind": 7.0
+    "tmin": 3.8,
+    "tmax": 14.4,
+    "tmoy": 8.2,
+    "rh": 77,
+    "et0": 1.75,
+    "wind": 6.6
    },
    "2026-10-20": {
     "models": {
@@ -2274,13 +2316,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 4.8,
-    "tmin": 4.9,
-    "tmax": 15.1,
-    "tmoy": 9.5,
-    "rh": 82,
-    "et0": 1.77,
-    "wind": 7.0
+    "rr": 0.0,
+    "tmin": 3.7,
+    "tmax": 18.0,
+    "tmoy": 11.0,
+    "rh": 76,
+    "et0": 1.91,
+    "wind": 3.9
    }
   },
   "monistrol": {
@@ -2321,13 +2363,13 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 14.8,
+    "rr": 14.9,
     "tmin": 13.3,
     "tmax": 20.0,
     "tmoy": 15.3,
     "rh": 87,
-    "wind": 7.2,
-    "et0": 1.55,
+    "wind": 7.4,
+    "et0": 1.54,
     "tsol": 15.8,
     "sm": 0.251,
     "sm_deep": 0.125
@@ -2345,40 +2387,40 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 13.4,
-    "tmin": 7.4,
+    "rr": 13.2,
+    "tmin": 6.4,
     "tmax": 13.4,
-    "tmoy": 9.8,
-    "rh": 85,
-    "wind": 12.4,
-    "et0": 0.58,
-    "tsol": 11.4,
-    "sm": 0.319,
-    "sm_deep": 0.178
+    "tmoy": 10.2,
+    "rh": 79,
+    "wind": 13.1,
+    "et0": 0.46,
+    "tsol": 11.5,
+    "sm": 0.331,
+    "sm_deep": 0.199
    },
    "2026-10-09": {
     "models": {
-     "rr": "meteofrance_arpege_europe",
-     "tmin": "meteofrance_arpege_europe",
-     "tmax": "meteofrance_arpege_europe",
-     "tmoy": "meteofrance_arpege_europe",
-     "rh": "meteofrance_arpege_europe",
+     "rr": "meteofrance_arome_france_hd",
+     "tmin": "meteofrance_arome_france_hd",
+     "tmax": "meteofrance_arome_france_hd",
+     "tmoy": "meteofrance_arome_france_hd",
+     "rh": "meteofrance_arome_france_hd",
+     "wind": "meteofrance_arome_france_hd",
      "et0": "meteofrance_arpege_europe",
-     "wind": "meteofrance_arpege_europe",
      "tsol": "best_match",
      "sm": "best_match",
      "sm_deep": "best_match"
     },
     "rr": 0.0,
-    "tmin": 5.8,
-    "tmax": 12.5,
-    "tmoy": 9.2,
-    "rh": 70,
-    "et0": 2.08,
-    "wind": 9.5,
-    "tsol": 10.2,
-    "sm": 0.26,
-    "sm_deep": 0.2
+    "tmin": 3.7,
+    "tmax": 13.1,
+    "tmoy": 9.5,
+    "rh": 68,
+    "wind": 8.2,
+    "et0": 1.96,
+    "tsol": 10.0,
+    "sm": 0.271,
+    "sm_deep": 0.237
    },
    "2026-10-10": {
     "models": {
@@ -2393,16 +2435,16 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 0.3,
-    "tmin": 6.9,
-    "tmax": 15.0,
-    "tmoy": 11.0,
-    "rh": 90,
-    "et0": 1.04,
-    "wind": 6.6,
-    "tsol": 12.9,
-    "sm": 0.227,
-    "sm_deep": 0.188
+    "rr": 0.5,
+    "tmin": 6.2,
+    "tmax": 14.9,
+    "tmoy": 10.7,
+    "rh": 93,
+    "et0": 0.85,
+    "wind": 6.8,
+    "tsol": 12.2,
+    "sm": 0.248,
+    "sm_deep": 0.234
    },
    "2026-10-11": {
     "models": {
@@ -2418,15 +2460,15 @@
      "sm_deep": "best_match"
     },
     "rr": 0.0,
-    "tmin": 5.2,
-    "tmax": 13.0,
+    "tmin": 5.3,
+    "tmax": 13.4,
     "tmoy": 9.2,
-    "rh": 79,
-    "et0": 1.66,
-    "wind": 5.7,
-    "tsol": 11.0,
-    "sm": 0.215,
-    "sm_deep": 0.188
+    "rh": 82,
+    "et0": 1.72,
+    "wind": 5.9,
+    "tsol": 10.1,
+    "sm": 0.234,
+    "sm_deep": 0.231
    },
    "2026-10-12": {
     "models": {
@@ -2442,15 +2484,15 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 3.9,
-    "tmax": 14.9,
-    "tmoy": 9.3,
-    "rh": 80,
-    "et0": 2.0,
-    "tsol": 9.5,
-    "sm": 0.204,
-    "sm_deep": 0.179,
-    "wind": 5.4
+    "tmin": 3.3,
+    "tmax": 16.1,
+    "tmoy": 9.0,
+    "rh": 82,
+    "et0": 2.04,
+    "tsol": 9.7,
+    "sm": 0.223,
+    "sm_deep": 0.226,
+    "wind": 3.8
    },
    "2026-10-13": {
     "models": {
@@ -2466,15 +2508,15 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 4.8,
-    "tmax": 19.1,
-    "tmoy": 13.6,
-    "rh": 64,
-    "et0": 2.18,
-    "tsol": 12.0,
-    "sm": 0.194,
-    "sm_deep": 0.168,
-    "wind": 3.1
+    "tmin": 5.4,
+    "tmax": 19.6,
+    "tmoy": 13.9,
+    "rh": 67,
+    "et0": 2.09,
+    "tsol": 12.1,
+    "sm": 0.21,
+    "sm_deep": 0.201,
+    "wind": 2.6
    },
    "2026-10-14": {
     "models": {
@@ -2489,16 +2531,16 @@
      "sm_deep": "best_match",
      "wind": "best_match"
     },
-    "rr": 0.3,
-    "tmin": 6.5,
-    "tmax": 18.1,
-    "tmoy": 14.0,
-    "rh": 86,
-    "et0": 1.34,
+    "rr": 0.0,
+    "tmin": 11.9,
+    "tmax": 20.2,
+    "tmoy": 15.4,
+    "rh": 83,
+    "et0": 1.65,
     "tsol": 14.2,
-    "sm": 0.186,
-    "sm_deep": 0.167,
-    "wind": 6.2
+    "sm": 0.2,
+    "sm_deep": 0.197,
+    "wind": 3.2
    },
    "2026-10-15": {
     "models": {
@@ -2508,15 +2550,21 @@
      "tmoy": "best_match",
      "rh": "best_match",
      "et0": "best_match",
+     "tsol": "best_match",
+     "sm": "best_match",
+     "sm_deep": "best_match",
      "wind": "best_match"
     },
-    "rr": 4.5,
-    "tmin": 5.8,
-    "tmax": 17.0,
-    "tmoy": 11.4,
-    "rh": 91,
-    "et0": 1.54,
-    "wind": 5.1
+    "rr": 4.2,
+    "tmin": 10.0,
+    "tmax": 20.6,
+    "tmoy": 14.6,
+    "rh": 83,
+    "et0": 1.93,
+    "tsol": 14.0,
+    "sm": 0.195,
+    "sm_deep": 0.195,
+    "wind": 5.2
    },
    "2026-10-16": {
     "models": {
@@ -2528,13 +2576,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 1.5,
-    "tmin": 4.6,
-    "tmax": 10.5,
-    "tmoy": 8.1,
-    "rh": 88,
-    "et0": 1.04,
-    "wind": 16.9
+    "rr": 12.0,
+    "tmin": 3.9,
+    "tmax": 11.1,
+    "tmoy": 8.2,
+    "rh": 86,
+    "et0": 0.94,
+    "wind": 16.5
    },
    "2026-10-17": {
     "models": {
@@ -2546,13 +2594,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 0.0,
-    "tmin": 1.4,
-    "tmax": 9.8,
-    "tmoy": 6.2,
-    "rh": 84,
-    "et0": 1.26,
-    "wind": 11.6
+    "rr": 4.8,
+    "tmin": 3.2,
+    "tmax": 5.2,
+    "tmoy": 4.3,
+    "rh": 85,
+    "et0": 0.85,
+    "wind": 27.5
    },
    "2026-10-18": {
     "models": {
@@ -2565,12 +2613,12 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 0.4,
-    "tmax": 12.5,
-    "tmoy": 7.6,
-    "rh": 76,
-    "et0": 1.8,
-    "wind": 7.5
+    "tmin": 3.3,
+    "tmax": 8.9,
+    "tmoy": 5.9,
+    "rh": 82,
+    "et0": 1.24,
+    "wind": 8.8
    },
    "2026-10-19": {
     "models": {
@@ -2583,12 +2631,12 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 7.0,
-    "tmax": 11.5,
-    "tmoy": 9.3,
-    "rh": 93,
-    "et0": 1.04,
-    "wind": 7.5
+    "tmin": 3.4,
+    "tmax": 14.5,
+    "tmoy": 8.1,
+    "rh": 82,
+    "et0": 1.72,
+    "wind": 5.8
    },
    "2026-10-20": {
     "models": {
@@ -2600,13 +2648,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 4.2,
-    "tmin": 6.5,
-    "tmax": 14.5,
-    "tmoy": 9.7,
-    "rh": 83,
-    "et0": 1.73,
-    "wind": 7.3
+    "rr": 0.0,
+    "tmin": 3.3,
+    "tmax": 18.5,
+    "tmoy": 10.8,
+    "rh": 84,
+    "et0": 1.88,
+    "wind": 3.6
    }
   },
   "monteil": {
@@ -2647,14 +2695,14 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 16.5,
+    "rr": 17.1,
     "tmin": 13.5,
     "tmax": 20.9,
     "tmoy": 15.7,
-    "rh": 89,
-    "wind": 4.4,
-    "et0": 1.64,
-    "tsol": 15.7,
+    "rh": 90,
+    "wind": 4.5,
+    "et0": 1.63,
+    "tsol": 15.6,
     "sm": 0.25,
     "sm_deep": 0.125
    },
@@ -2671,40 +2719,40 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 19.7,
-    "tmin": 8.6,
+    "rr": 16.2,
+    "tmin": 7.7,
     "tmax": 14.0,
-    "tmoy": 10.6,
-    "rh": 84,
-    "wind": 7.8,
-    "et0": 0.92,
+    "tmoy": 11.0,
+    "rh": 78,
+    "wind": 9.1,
+    "et0": 0.79,
     "tsol": 11.8,
-    "sm": 0.319,
-    "sm_deep": 0.184
+    "sm": 0.327,
+    "sm_deep": 0.196
    },
    "2026-10-09": {
     "models": {
-     "rr": "meteofrance_arpege_europe",
-     "tmin": "meteofrance_arpege_europe",
-     "tmax": "meteofrance_arpege_europe",
-     "tmoy": "meteofrance_arpege_europe",
-     "rh": "meteofrance_arpege_europe",
+     "rr": "meteofrance_arome_france_hd",
+     "tmin": "meteofrance_arome_france_hd",
+     "tmax": "meteofrance_arome_france_hd",
+     "tmoy": "meteofrance_arome_france_hd",
+     "rh": "meteofrance_arome_france_hd",
+     "wind": "meteofrance_arome_france_hd",
      "et0": "meteofrance_arpege_europe",
-     "wind": "meteofrance_arpege_europe",
      "tsol": "best_match",
      "sm": "best_match",
      "sm_deep": "best_match"
     },
     "rr": 0.0,
-    "tmin": 7.0,
+    "tmin": 5.0,
     "tmax": 14.0,
-    "tmoy": 10.8,
-    "rh": 64,
-    "et0": 2.29,
-    "wind": 7.9,
-    "tsol": 10.4,
-    "sm": 0.257,
-    "sm_deep": 0.192
+    "tmoy": 10.4,
+    "rh": 67,
+    "wind": 5.6,
+    "et0": 2.21,
+    "tsol": 10.2,
+    "sm": 0.266,
+    "sm_deep": 0.233
    },
    "2026-10-10": {
     "models": {
@@ -2719,16 +2767,16 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 0.3,
-    "tmin": 6.5,
-    "tmax": 15.9,
-    "tmoy": 12.1,
-    "rh": 85,
-    "et0": 1.22,
-    "wind": 6.0,
-    "tsol": 13.7,
-    "sm": 0.22,
-    "sm_deep": 0.144
+    "rr": 0.0,
+    "tmin": 7.0,
+    "tmax": 16.1,
+    "tmoy": 11.7,
+    "rh": 88,
+    "et0": 0.92,
+    "wind": 5.8,
+    "tsol": 12.9,
+    "sm": 0.236,
+    "sm_deep": 0.193
    },
    "2026-10-11": {
     "models": {
@@ -2744,15 +2792,15 @@
      "sm_deep": "best_match"
     },
     "rr": 0.0,
-    "tmin": 5.9,
-    "tmax": 14.9,
-    "tmoy": 10.4,
-    "rh": 71,
-    "et0": 1.89,
-    "wind": 5.4,
-    "tsol": 11.8,
-    "sm": 0.206,
-    "sm_deep": 0.145
+    "tmin": 6.4,
+    "tmax": 15.6,
+    "tmoy": 10.8,
+    "rh": 70,
+    "et0": 1.94,
+    "wind": 3.9,
+    "tsol": 11.0,
+    "sm": 0.218,
+    "sm_deep": 0.175
    },
    "2026-10-12": {
     "models": {
@@ -2768,15 +2816,15 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 3.3,
-    "tmax": 16.3,
-    "tmoy": 10.1,
-    "rh": 79,
-    "et0": 2.13,
-    "tsol": 10.4,
-    "sm": 0.199,
-    "sm_deep": 0.155,
-    "wind": 5.0
+    "tmin": 3.2,
+    "tmax": 17.1,
+    "tmoy": 9.3,
+    "rh": 85,
+    "et0": 2.0,
+    "tsol": 10.3,
+    "sm": 0.206,
+    "sm_deep": 0.175,
+    "wind": 3.2
    },
    "2026-10-13": {
     "models": {
@@ -2792,15 +2840,15 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 5.6,
-    "tmax": 19.9,
-    "tmoy": 14.5,
-    "rh": 64,
-    "et0": 2.21,
+    "tmin": 5.5,
+    "tmax": 20.4,
+    "tmoy": 14.7,
+    "rh": 67,
+    "et0": 2.13,
     "tsol": 12.9,
-    "sm": 0.194,
-    "sm_deep": 0.168,
-    "wind": 3.1
+    "sm": 0.209,
+    "sm_deep": 0.198,
+    "wind": 2.5
    },
    "2026-10-14": {
     "models": {
@@ -2815,16 +2863,16 @@
      "sm_deep": "best_match",
      "wind": "best_match"
     },
-    "rr": 0.3,
-    "tmin": 7.8,
-    "tmax": 19.0,
-    "tmoy": 15.0,
-    "rh": 86,
-    "et0": 1.36,
+    "rr": 0.0,
+    "tmin": 12.8,
+    "tmax": 21.0,
+    "tmoy": 16.2,
+    "rh": 83,
+    "et0": 1.66,
     "tsol": 15.0,
-    "sm": 0.186,
-    "sm_deep": 0.167,
-    "wind": 5.9
+    "sm": 0.2,
+    "sm_deep": 0.197,
+    "wind": 3.2
    },
    "2026-10-15": {
     "models": {
@@ -2834,15 +2882,21 @@
      "tmoy": "best_match",
      "rh": "best_match",
      "et0": "best_match",
+     "tsol": "best_match",
+     "sm": "best_match",
+     "sm_deep": "best_match",
      "wind": "best_match"
     },
-    "rr": 4.5,
-    "tmin": 6.8,
-    "tmax": 18.7,
-    "tmoy": 12.7,
-    "rh": 89,
-    "et0": 1.67,
-    "wind": 3.1
+    "rr": 1.2,
+    "tmin": 10.8,
+    "tmax": 22.5,
+    "tmoy": 15.9,
+    "rh": 84,
+    "et0": 1.96,
+    "tsol": 14.9,
+    "sm": 0.195,
+    "sm_deep": 0.195,
+    "wind": 4.2
    },
    "2026-10-16": {
     "models": {
@@ -2854,13 +2908,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 2.7,
+    "rr": 11.4,
     "tmin": 6.5,
-    "tmax": 13.2,
-    "tmoy": 10.1,
-    "rh": 85,
-    "et0": 1.23,
-    "wind": 12.4
+    "tmax": 13.9,
+    "tmoy": 10.2,
+    "rh": 83,
+    "et0": 1.11,
+    "wind": 11.3
    },
    "2026-10-17": {
     "models": {
@@ -2872,13 +2926,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 0.0,
-    "tmin": 2.4,
-    "tmax": 11.8,
-    "tmoy": 7.5,
+    "rr": 3.6,
+    "tmin": 5.4,
+    "tmax": 6.8,
+    "tmoy": 6.2,
     "rh": 81,
-    "et0": 1.46,
-    "wind": 9.6
+    "et0": 1.11,
+    "wind": 24.6
    },
    "2026-10-18": {
     "models": {
@@ -2891,12 +2945,12 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 2.0,
-    "tmax": 14.8,
-    "tmoy": 9.4,
-    "rh": 72,
-    "et0": 1.8,
-    "wind": 4.2
+    "tmin": 4.3,
+    "tmax": 10.5,
+    "tmoy": 7.1,
+    "rh": 82,
+    "et0": 1.33,
+    "wind": 7.6
    },
    "2026-10-19": {
     "models": {
@@ -2909,12 +2963,12 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 8.5,
-    "tmax": 15.0,
-    "tmoy": 11.0,
-    "rh": 88,
-    "et0": 1.35,
-    "wind": 5.4
+    "tmin": 4.3,
+    "tmax": 16.5,
+    "tmoy": 9.8,
+    "rh": 80,
+    "et0": 1.83,
+    "wind": 4.1
    },
    "2026-10-20": {
     "models": {
@@ -2926,13 +2980,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 3.6,
-    "tmin": 7.7,
-    "tmax": 16.3,
-    "tmoy": 11.1,
-    "rh": 83,
-    "et0": 1.82,
-    "wind": 6.3
+    "rr": 0.0,
+    "tmin": 4.8,
+    "tmax": 20.5,
+    "tmoy": 12.4,
+    "rh": 79,
+    "et0": 1.98,
+    "wind": 2.4
    }
   },
   "orcimont": {
@@ -2973,16 +3027,16 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 15.3,
-    "tmin": 12.4,
+    "rr": 15.5,
+    "tmin": 12.5,
     "tmax": 19.4,
     "tmoy": 14.7,
     "rh": 89,
-    "wind": 10.9,
+    "wind": 11.0,
     "et0": 1.51,
     "tsol": 14.9,
     "sm": 0.251,
-    "sm_deep": 0.131
+    "sm_deep": 0.132
    },
    "2026-10-08": {
     "models": {
@@ -2997,40 +3051,40 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 15.9,
-    "tmin": 6.1,
+    "rr": 13.7,
+    "tmin": 5.0,
     "tmax": 12.5,
-    "tmoy": 8.7,
-    "rh": 91,
-    "wind": 15.0,
-    "et0": 0.58,
-    "tsol": 10.8,
-    "sm": 0.323,
-    "sm_deep": 0.193
+    "tmoy": 9.0,
+    "rh": 86,
+    "wind": 14.8,
+    "et0": 0.45,
+    "tsol": 10.9,
+    "sm": 0.329,
+    "sm_deep": 0.222
    },
    "2026-10-09": {
     "models": {
-     "rr": "meteofrance_arpege_europe",
-     "tmin": "meteofrance_arpege_europe",
-     "tmax": "meteofrance_arpege_europe",
-     "tmoy": "meteofrance_arpege_europe",
-     "rh": "meteofrance_arpege_europe",
+     "rr": "meteofrance_arome_france_hd",
+     "tmin": "meteofrance_arome_france_hd",
+     "tmax": "meteofrance_arome_france_hd",
+     "tmoy": "meteofrance_arome_france_hd",
+     "rh": "meteofrance_arome_france_hd",
+     "wind": "meteofrance_arome_france_hd",
      "et0": "meteofrance_arpege_europe",
-     "wind": "meteofrance_arpege_europe",
      "tsol": "best_match",
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 0.0,
-    "tmin": 5.1,
-    "tmax": 11.8,
-    "tmoy": 8.5,
-    "rh": 70,
-    "et0": 2.04,
-    "wind": 9.5,
-    "tsol": 9.3,
-    "sm": 0.262,
-    "sm_deep": 0.216
+    "rr": 0.1,
+    "tmin": 2.0,
+    "tmax": 11.9,
+    "tmoy": 8.2,
+    "rh": 74,
+    "wind": 8.6,
+    "et0": 1.92,
+    "tsol": 9.4,
+    "sm": 0.271,
+    "sm_deep": 0.259
    },
    "2026-10-10": {
     "models": {
@@ -3045,16 +3099,16 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 0.3,
-    "tmin": 6.2,
-    "tmax": 14.3,
-    "tmoy": 10.3,
-    "rh": 90,
-    "et0": 0.98,
-    "wind": 6.6,
-    "tsol": 12.2,
-    "sm": 0.227,
-    "sm_deep": 0.188
+    "rr": 0.5,
+    "tmin": 5.5,
+    "tmax": 14.2,
+    "tmoy": 10.0,
+    "rh": 93,
+    "et0": 0.83,
+    "wind": 6.8,
+    "tsol": 11.6,
+    "sm": 0.25,
+    "sm_deep": 0.241
    },
    "2026-10-11": {
     "models": {
@@ -3070,15 +3124,15 @@
      "sm_deep": "best_match"
     },
     "rr": 0.0,
-    "tmin": 4.5,
-    "tmax": 12.3,
+    "tmin": 4.6,
+    "tmax": 12.7,
     "tmoy": 8.5,
-    "rh": 79,
-    "et0": 1.61,
-    "wind": 5.7,
-    "tsol": 10.3,
-    "sm": 0.215,
-    "sm_deep": 0.188
+    "rh": 82,
+    "et0": 1.7,
+    "wind": 5.9,
+    "tsol": 9.5,
+    "sm": 0.234,
+    "sm_deep": 0.231
    },
    "2026-10-12": {
     "models": {
@@ -3094,15 +3148,15 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 3.2,
-    "tmax": 14.2,
-    "tmoy": 8.7,
-    "rh": 80,
-    "et0": 1.94,
-    "tsol": 8.9,
-    "sm": 0.204,
-    "sm_deep": 0.179,
-    "wind": 5.4
+    "tmin": 2.7,
+    "tmax": 15.4,
+    "tmoy": 8.4,
+    "rh": 82,
+    "et0": 2.01,
+    "tsol": 9.1,
+    "sm": 0.223,
+    "sm_deep": 0.226,
+    "wind": 3.8
    },
    "2026-10-13": {
     "models": {
@@ -3118,15 +3172,15 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 4.1,
-    "tmax": 18.4,
-    "tmoy": 12.9,
-    "rh": 64,
-    "et0": 2.16,
-    "tsol": 11.3,
-    "sm": 0.194,
-    "sm_deep": 0.168,
-    "wind": 3.1
+    "tmin": 4.7,
+    "tmax": 18.9,
+    "tmoy": 13.2,
+    "rh": 67,
+    "et0": 2.07,
+    "tsol": 11.4,
+    "sm": 0.21,
+    "sm_deep": 0.201,
+    "wind": 2.6
    },
    "2026-10-14": {
     "models": {
@@ -3141,16 +3195,16 @@
      "sm_deep": "best_match",
      "wind": "best_match"
     },
-    "rr": 0.3,
-    "tmin": 6.5,
-    "tmax": 17.4,
-    "tmoy": 13.4,
-    "rh": 86,
-    "et0": 1.31,
+    "rr": 0.0,
+    "tmin": 11.2,
+    "tmax": 19.5,
+    "tmoy": 14.7,
+    "rh": 83,
+    "et0": 1.64,
     "tsol": 13.5,
-    "sm": 0.186,
-    "sm_deep": 0.167,
-    "wind": 6.2
+    "sm": 0.2,
+    "sm_deep": 0.197,
+    "wind": 3.2
    },
    "2026-10-15": {
     "models": {
@@ -3160,15 +3214,21 @@
      "tmoy": "best_match",
      "rh": "best_match",
      "et0": "best_match",
+     "tsol": "best_match",
+     "sm": "best_match",
+     "sm_deep": "best_match",
      "wind": "best_match"
     },
-    "rr": 4.5,
-    "tmin": 5.8,
-    "tmax": 17.0,
-    "tmoy": 11.4,
-    "rh": 91,
-    "et0": 1.56,
-    "wind": 5.1
+    "rr": 4.2,
+    "tmin": 10.0,
+    "tmax": 20.6,
+    "tmoy": 14.4,
+    "rh": 83,
+    "et0": 1.92,
+    "tsol": 13.3,
+    "sm": 0.195,
+    "sm_deep": 0.195,
+    "wind": 5.2
    },
    "2026-10-16": {
     "models": {
@@ -3180,13 +3240,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 1.5,
-    "tmin": 4.6,
-    "tmax": 10.5,
-    "tmoy": 8.1,
-    "rh": 88,
-    "et0": 1.04,
-    "wind": 16.9
+    "rr": 12.0,
+    "tmin": 3.9,
+    "tmax": 11.1,
+    "tmoy": 8.2,
+    "rh": 86,
+    "et0": 0.95,
+    "wind": 16.5
    },
    "2026-10-17": {
     "models": {
@@ -3198,13 +3258,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 0.0,
-    "tmin": 1.4,
-    "tmax": 9.8,
-    "tmoy": 6.2,
-    "rh": 84,
-    "et0": 1.27,
-    "wind": 11.6
+    "rr": 4.8,
+    "tmin": 3.2,
+    "tmax": 5.2,
+    "tmoy": 4.3,
+    "rh": 85,
+    "et0": 0.84,
+    "wind": 27.5
    },
    "2026-10-18": {
     "models": {
@@ -3217,12 +3277,12 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 0.4,
-    "tmax": 12.5,
-    "tmoy": 7.6,
-    "rh": 76,
-    "et0": 1.8,
-    "wind": 7.5
+    "tmin": 3.3,
+    "tmax": 8.9,
+    "tmoy": 5.9,
+    "rh": 82,
+    "et0": 1.25,
+    "wind": 8.8
    },
    "2026-10-19": {
     "models": {
@@ -3235,12 +3295,12 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 7.0,
-    "tmax": 11.5,
-    "tmoy": 9.3,
-    "rh": 93,
-    "et0": 1.04,
-    "wind": 7.5
+    "tmin": 3.4,
+    "tmax": 14.5,
+    "tmoy": 8.1,
+    "rh": 82,
+    "et0": 1.73,
+    "wind": 5.8
    },
    "2026-10-20": {
     "models": {
@@ -3252,13 +3312,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 4.2,
-    "tmin": 6.5,
-    "tmax": 14.5,
-    "tmoy": 9.7,
-    "rh": 83,
-    "et0": 1.74,
-    "wind": 7.3
+    "rr": 0.0,
+    "tmin": 3.3,
+    "tmax": 18.5,
+    "tmoy": 10.8,
+    "rh": 84,
+    "et0": 1.88,
+    "wind": 3.6
    }
   },
   "semene-chaud": {
@@ -3299,13 +3359,13 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 18.1,
-    "tmin": 11.8,
+    "rr": 18.6,
+    "tmin": 12.1,
     "tmax": 18.7,
-    "tmoy": 13.9,
+    "tmoy": 14.0,
     "rh": 90,
-    "wind": 10.0,
-    "et0": 1.47,
+    "wind": 9.9,
+    "et0": 1.48,
     "tsol": 14.0,
     "sm": 0.25,
     "sm_deep": 0.131
@@ -3323,40 +3383,40 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 21.4,
-    "tmin": 5.0,
-    "tmax": 11.9,
-    "tmoy": 7.8,
-    "rh": 94,
-    "wind": 14.2,
-    "et0": 0.57,
-    "tsol": 10.0,
-    "sm": 0.327,
-    "sm_deep": 0.2
+    "rr": 16.6,
+    "tmin": 4.4,
+    "tmax": 11.8,
+    "tmoy": 7.9,
+    "rh": 90,
+    "wind": 13.8,
+    "et0": 0.45,
+    "tsol": 10.1,
+    "sm": 0.33,
+    "sm_deep": 0.224
    },
    "2026-10-09": {
     "models": {
-     "rr": "meteofrance_arpege_europe",
-     "tmin": "meteofrance_arpege_europe",
-     "tmax": "meteofrance_arpege_europe",
-     "tmoy": "meteofrance_arpege_europe",
-     "rh": "meteofrance_arpege_europe",
+     "rr": "meteofrance_arome_france_hd",
+     "tmin": "meteofrance_arome_france_hd",
+     "tmax": "meteofrance_arome_france_hd",
+     "tmoy": "meteofrance_arome_france_hd",
+     "rh": "meteofrance_arome_france_hd",
+     "wind": "meteofrance_arome_france_hd",
      "et0": "meteofrance_arpege_europe",
-     "wind": "meteofrance_arpege_europe",
      "tsol": "best_match",
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 0.0,
-    "tmin": 4.3,
-    "tmax": 11.0,
-    "tmoy": 7.8,
-    "rh": 70,
-    "et0": 1.99,
-    "wind": 9.5,
-    "tsol": 8.5,
-    "sm": 0.264,
-    "sm_deep": 0.228
+    "rr": 0.1,
+    "tmin": 2.4,
+    "tmax": 10.8,
+    "tmoy": 7.4,
+    "rh": 75,
+    "wind": 8.3,
+    "et0": 1.88,
+    "tsol": 8.6,
+    "sm": 0.272,
+    "sm_deep": 0.263
    },
    "2026-10-10": {
     "models": {
@@ -3371,16 +3431,16 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 0.3,
-    "tmin": 5.4,
-    "tmax": 13.5,
-    "tmoy": 9.5,
-    "rh": 90,
-    "et0": 0.96,
-    "wind": 6.6,
-    "tsol": 11.3,
-    "sm": 0.23,
-    "sm_deep": 0.201
+    "rr": 0.5,
+    "tmin": 4.7,
+    "tmax": 13.4,
+    "tmoy": 9.2,
+    "rh": 93,
+    "et0": 0.82,
+    "wind": 6.8,
+    "tsol": 10.7,
+    "sm": 0.257,
+    "sm_deep": 0.255
    },
    "2026-10-11": {
     "models": {
@@ -3396,15 +3456,15 @@
      "sm_deep": "best_match"
     },
     "rr": 0.0,
-    "tmin": 3.8,
-    "tmax": 11.5,
-    "tmoy": 7.8,
-    "rh": 79,
-    "et0": 1.58,
-    "wind": 5.7,
-    "tsol": 9.4,
-    "sm": 0.219,
-    "sm_deep": 0.2
+    "tmin": 3.9,
+    "tmax": 12.0,
+    "tmoy": 7.7,
+    "rh": 82,
+    "et0": 1.68,
+    "wind": 5.9,
+    "tsol": 8.7,
+    "sm": 0.244,
+    "sm_deep": 0.248
    },
    "2026-10-12": {
     "models": {
@@ -3420,15 +3480,15 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 4.2,
-    "tmax": 12.8,
-    "tmoy": 8.2,
-    "rh": 82,
-    "et0": 1.84,
-    "tsol": 8.0,
-    "sm": 0.211,
-    "sm_deep": 0.196,
-    "wind": 6.2
+    "tmin": 3.5,
+    "tmax": 14.2,
+    "tmoy": 8.6,
+    "rh": 79,
+    "et0": 1.96,
+    "tsol": 8.5,
+    "sm": 0.233,
+    "sm_deep": 0.242,
+    "wind": 5.0
    },
    "2026-10-13": {
     "models": {
@@ -3444,15 +3504,15 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 4.1,
-    "tmax": 16.9,
-    "tmoy": 12.1,
+    "tmin": 6.2,
+    "tmax": 17.6,
+    "tmoy": 12.7,
     "rh": 66,
-    "et0": 2.12,
-    "tsol": 10.2,
-    "sm": 0.204,
-    "sm_deep": 0.191,
-    "wind": 3.7
+    "et0": 2.04,
+    "tsol": 10.5,
+    "sm": 0.235,
+    "sm_deep": 0.244,
+    "wind": 2.8
    },
    "2026-10-14": {
     "models": {
@@ -3467,16 +3527,16 @@
      "sm_deep": "best_match",
      "wind": "best_match"
     },
-    "rr": 0.6,
-    "tmin": 6.4,
-    "tmax": 16.2,
-    "tmoy": 12.6,
-    "rh": 90,
-    "et0": 1.11,
-    "tsol": 12.8,
-    "sm": 0.196,
-    "sm_deep": 0.189,
-    "wind": 7.2
+    "rr": 0.0,
+    "tmin": 11.4,
+    "tmax": 18.2,
+    "tmoy": 14.0,
+    "rh": 85,
+    "et0": 1.49,
+    "tsol": 12.4,
+    "sm": 0.226,
+    "sm_deep": 0.239,
+    "wind": 3.0
    },
    "2026-10-15": {
     "models": {
@@ -3486,15 +3546,21 @@
      "tmoy": "best_match",
      "rh": "best_match",
      "et0": "best_match",
+     "tsol": "best_match",
+     "sm": "best_match",
+     "sm_deep": "best_match",
      "wind": "best_match"
     },
-    "rr": 3.9,
-    "tmin": 5.8,
-    "tmax": 15.7,
-    "tmoy": 10.6,
-    "rh": 91,
-    "et0": 1.53,
-    "wind": 4.3
+    "rr": 4.2,
+    "tmin": 9.9,
+    "tmax": 19.9,
+    "tmoy": 13.9,
+    "rh": 84,
+    "et0": 1.84,
+    "tsol": 12.4,
+    "sm": 0.222,
+    "sm_deep": 0.236,
+    "wind": 5.4
    },
    "2026-10-16": {
     "models": {
@@ -3506,13 +3572,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 3.0,
-    "tmin": 3.8,
-    "tmax": 9.6,
-    "tmoy": 7.1,
-    "rh": 90,
-    "et0": 0.96,
-    "wind": 15.7
+    "rr": 14.7,
+    "tmin": 3.2,
+    "tmax": 10.7,
+    "tmoy": 7.5,
+    "rh": 86,
+    "et0": 0.92,
+    "wind": 15.8
    },
    "2026-10-17": {
     "models": {
@@ -3524,13 +3590,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 0.9,
-    "tmin": 0.7,
-    "tmax": 8.6,
-    "tmoy": 5.1,
-    "rh": 86,
-    "et0": 1.1,
-    "wind": 10.6
+    "rr": 6.6,
+    "tmin": 2.5,
+    "tmax": 3.8,
+    "tmoy": 3.2,
+    "rh": 88,
+    "et0": 0.7,
+    "wind": 26.2
    },
    "2026-10-18": {
     "models": {
@@ -3542,13 +3608,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 0.0,
-    "tmin": 0.0,
-    "tmax": 11.5,
-    "tmoy": 6.7,
-    "rh": 78,
-    "et0": 1.69,
-    "wind": 6.6
+    "rr": 0.3,
+    "tmin": 2.3,
+    "tmax": 8.0,
+    "tmoy": 4.8,
+    "rh": 83,
+    "et0": 1.17,
+    "wind": 8.4
    },
    "2026-10-19": {
     "models": {
@@ -3561,12 +3627,12 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 6.1,
-    "tmax": 10.7,
-    "tmoy": 8.2,
-    "rh": 94,
-    "et0": 1.02,
-    "wind": 6.9
+    "tmin": 2.4,
+    "tmax": 14.4,
+    "tmoy": 7.8,
+    "rh": 82,
+    "et0": 1.72,
+    "wind": 4.7
    },
    "2026-10-20": {
     "models": {
@@ -3578,13 +3644,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 3.9,
-    "tmin": 5.6,
-    "tmax": 13.3,
-    "tmoy": 8.6,
-    "rh": 84,
-    "et0": 1.7,
-    "wind": 7.6
+    "rr": 0.0,
+    "tmin": 3.7,
+    "tmax": 18.5,
+    "tmoy": 10.9,
+    "rh": 81,
+    "et0": 1.92,
+    "wind": 4.3
    }
   },
   "tirepeyre": {
@@ -3625,11 +3691,11 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 16.0,
-    "tmin": 12.3,
+    "rr": 16.2,
+    "tmin": 12.4,
     "tmax": 19.5,
     "tmoy": 14.6,
-    "rh": 89,
+    "rh": 90,
     "wind": 9.9,
     "et0": 1.51,
     "tsol": 15.0,
@@ -3649,40 +3715,40 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 17.3,
-    "tmin": 6.2,
+    "rr": 15.0,
+    "tmin": 5.2,
     "tmax": 12.5,
-    "tmoy": 8.7,
-    "rh": 90,
-    "wind": 14.8,
-    "et0": 0.58,
-    "tsol": 10.8,
-    "sm": 0.324,
-    "sm_deep": 0.188
+    "tmoy": 9.0,
+    "rh": 85,
+    "wind": 15.0,
+    "et0": 0.45,
+    "tsol": 10.9,
+    "sm": 0.33,
+    "sm_deep": 0.209
    },
    "2026-10-09": {
     "models": {
-     "rr": "meteofrance_arpege_europe",
-     "tmin": "meteofrance_arpege_europe",
-     "tmax": "meteofrance_arpege_europe",
-     "tmoy": "meteofrance_arpege_europe",
-     "rh": "meteofrance_arpege_europe",
+     "rr": "meteofrance_arome_france_hd",
+     "tmin": "meteofrance_arome_france_hd",
+     "tmax": "meteofrance_arome_france_hd",
+     "tmoy": "meteofrance_arome_france_hd",
+     "rh": "meteofrance_arome_france_hd",
+     "wind": "meteofrance_arome_france_hd",
      "et0": "meteofrance_arpege_europe",
-     "wind": "meteofrance_arpege_europe",
      "tsol": "best_match",
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 0.0,
-    "tmin": 5.1,
+    "rr": 0.1,
+    "tmin": 2.4,
     "tmax": 11.8,
-    "tmoy": 8.5,
-    "rh": 70,
-    "et0": 2.04,
-    "wind": 9.5,
-    "tsol": 9.5,
-    "sm": 0.261,
-    "sm_deep": 0.211
+    "tmoy": 8.2,
+    "rh": 74,
+    "wind": 8.5,
+    "et0": 1.92,
+    "tsol": 9.6,
+    "sm": 0.269,
+    "sm_deep": 0.246
    },
    "2026-10-10": {
     "models": {
@@ -3697,16 +3763,16 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 0.3,
-    "tmin": 6.2,
-    "tmax": 14.3,
-    "tmoy": 10.3,
-    "rh": 90,
-    "et0": 0.98,
-    "wind": 6.6,
-    "tsol": 12.2,
-    "sm": 0.227,
-    "sm_deep": 0.188
+    "rr": 0.5,
+    "tmin": 5.5,
+    "tmax": 14.2,
+    "tmoy": 10.0,
+    "rh": 93,
+    "et0": 0.83,
+    "wind": 6.8,
+    "tsol": 11.6,
+    "sm": 0.249,
+    "sm_deep": 0.237
    },
    "2026-10-11": {
     "models": {
@@ -3722,15 +3788,15 @@
      "sm_deep": "best_match"
     },
     "rr": 0.0,
-    "tmin": 4.5,
-    "tmax": 12.3,
+    "tmin": 4.6,
+    "tmax": 12.7,
     "tmoy": 8.5,
-    "rh": 79,
-    "et0": 1.61,
-    "wind": 5.7,
-    "tsol": 10.3,
-    "sm": 0.215,
-    "sm_deep": 0.188
+    "rh": 82,
+    "et0": 1.7,
+    "wind": 5.9,
+    "tsol": 9.4,
+    "sm": 0.234,
+    "sm_deep": 0.231
    },
    "2026-10-12": {
     "models": {
@@ -3746,15 +3812,15 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 3.2,
-    "tmax": 14.2,
-    "tmoy": 8.6,
-    "rh": 80,
-    "et0": 1.94,
-    "tsol": 8.8,
-    "sm": 0.204,
-    "sm_deep": 0.179,
-    "wind": 5.4
+    "tmin": 2.6,
+    "tmax": 15.4,
+    "tmoy": 8.3,
+    "rh": 82,
+    "et0": 2.01,
+    "tsol": 9.0,
+    "sm": 0.223,
+    "sm_deep": 0.226,
+    "wind": 3.8
    },
    "2026-10-13": {
     "models": {
@@ -3770,15 +3836,15 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 4.1,
-    "tmax": 18.4,
-    "tmoy": 12.9,
-    "rh": 64,
-    "et0": 2.15,
-    "tsol": 11.3,
-    "sm": 0.194,
-    "sm_deep": 0.168,
-    "wind": 3.1
+    "tmin": 4.7,
+    "tmax": 18.9,
+    "tmoy": 13.2,
+    "rh": 67,
+    "et0": 2.07,
+    "tsol": 11.4,
+    "sm": 0.21,
+    "sm_deep": 0.201,
+    "wind": 2.6
    },
    "2026-10-14": {
     "models": {
@@ -3793,16 +3859,16 @@
      "sm_deep": "best_match",
      "wind": "best_match"
     },
-    "rr": 0.3,
-    "tmin": 6.5,
-    "tmax": 17.4,
-    "tmoy": 13.4,
-    "rh": 86,
-    "et0": 1.31,
+    "rr": 0.0,
+    "tmin": 11.2,
+    "tmax": 19.5,
+    "tmoy": 14.7,
+    "rh": 83,
+    "et0": 1.64,
     "tsol": 13.5,
-    "sm": 0.186,
-    "sm_deep": 0.167,
-    "wind": 6.2
+    "sm": 0.2,
+    "sm_deep": 0.197,
+    "wind": 3.2
    },
    "2026-10-15": {
     "models": {
@@ -3812,15 +3878,21 @@
      "tmoy": "best_match",
      "rh": "best_match",
      "et0": "best_match",
+     "tsol": "best_match",
+     "sm": "best_match",
+     "sm_deep": "best_match",
      "wind": "best_match"
     },
-    "rr": 4.5,
-    "tmin": 5.8,
-    "tmax": 17.0,
-    "tmoy": 11.4,
-    "rh": 91,
-    "et0": 1.56,
-    "wind": 5.1
+    "rr": 4.2,
+    "tmin": 10.0,
+    "tmax": 20.6,
+    "tmoy": 14.4,
+    "rh": 83,
+    "et0": 1.92,
+    "tsol": 13.3,
+    "sm": 0.195,
+    "sm_deep": 0.195,
+    "wind": 5.2
    },
    "2026-10-16": {
     "models": {
@@ -3832,13 +3904,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 1.5,
-    "tmin": 4.6,
-    "tmax": 10.5,
-    "tmoy": 8.1,
-    "rh": 88,
-    "et0": 1.04,
-    "wind": 16.9
+    "rr": 12.0,
+    "tmin": 3.9,
+    "tmax": 11.1,
+    "tmoy": 8.2,
+    "rh": 86,
+    "et0": 0.95,
+    "wind": 16.5
    },
    "2026-10-17": {
     "models": {
@@ -3850,13 +3922,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 0.0,
-    "tmin": 1.4,
-    "tmax": 9.8,
-    "tmoy": 6.2,
-    "rh": 84,
-    "et0": 1.27,
-    "wind": 11.6
+    "rr": 4.8,
+    "tmin": 3.2,
+    "tmax": 5.2,
+    "tmoy": 4.3,
+    "rh": 85,
+    "et0": 0.84,
+    "wind": 27.5
    },
    "2026-10-18": {
     "models": {
@@ -3869,12 +3941,12 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 0.4,
-    "tmax": 12.5,
-    "tmoy": 7.6,
-    "rh": 76,
-    "et0": 1.8,
-    "wind": 7.5
+    "tmin": 3.3,
+    "tmax": 8.9,
+    "tmoy": 5.9,
+    "rh": 82,
+    "et0": 1.25,
+    "wind": 8.8
    },
    "2026-10-19": {
     "models": {
@@ -3887,12 +3959,12 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 7.0,
-    "tmax": 11.5,
-    "tmoy": 9.3,
-    "rh": 93,
-    "et0": 1.04,
-    "wind": 7.5
+    "tmin": 3.4,
+    "tmax": 14.5,
+    "tmoy": 8.1,
+    "rh": 82,
+    "et0": 1.73,
+    "wind": 5.8
    },
    "2026-10-20": {
     "models": {
@@ -3904,13 +3976,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 4.2,
-    "tmin": 6.5,
-    "tmax": 14.5,
-    "tmoy": 9.7,
-    "rh": 83,
-    "et0": 1.74,
-    "wind": 7.3
+    "rr": 0.0,
+    "tmin": 3.3,
+    "tmax": 18.5,
+    "tmoy": 10.8,
+    "rh": 84,
+    "et0": 1.88,
+    "wind": 3.6
    }
   },
   "valprivas": {
@@ -3951,13 +4023,13 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 14.0,
-    "tmin": 12.2,
+    "rr": 14.2,
+    "tmin": 12.0,
     "tmax": 18.2,
     "tmoy": 14.2,
     "rh": 91,
-    "wind": 5.6,
-    "et0": 1.59,
+    "wind": 5.8,
+    "et0": 1.58,
     "tsol": 14.5,
     "sm": 0.228,
     "sm_deep": 0.126
@@ -3975,40 +4047,40 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 9.5,
-    "tmin": 6.4,
-    "tmax": 12.6,
-    "tmoy": 8.6,
-    "rh": 85,
-    "wind": 12.1,
-    "et0": 0.85,
-    "tsol": 10.6,
-    "sm": 0.284,
-    "sm_deep": 0.144
+    "rr": 6.0,
+    "tmin": 5.8,
+    "tmax": 12.2,
+    "tmoy": 8.7,
+    "rh": 81,
+    "wind": 12.2,
+    "et0": 0.7,
+    "tsol": 10.5,
+    "sm": 0.315,
+    "sm_deep": 0.16
    },
    "2026-10-09": {
     "models": {
-     "rr": "meteofrance_arpege_europe",
-     "tmin": "meteofrance_arpege_europe",
-     "tmax": "meteofrance_arpege_europe",
-     "tmoy": "meteofrance_arpege_europe",
-     "rh": "meteofrance_arpege_europe",
+     "rr": "meteofrance_arome_france_hd",
+     "tmin": "meteofrance_arome_france_hd",
+     "tmax": "meteofrance_arome_france_hd",
+     "tmoy": "meteofrance_arome_france_hd",
+     "rh": "meteofrance_arome_france_hd",
+     "wind": "meteofrance_arome_france_hd",
      "et0": "meteofrance_arpege_europe",
-     "wind": "meteofrance_arpege_europe",
      "tsol": "best_match",
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 0.0,
-    "tmin": 5.2,
+    "rr": 0.1,
+    "tmin": 3.2,
     "tmax": 12.2,
-    "tmoy": 8.9,
-    "rh": 64,
-    "et0": 2.15,
-    "wind": 7.9,
-    "tsol": 9.1,
-    "sm": 0.25,
-    "sm_deep": 0.159
+    "tmoy": 8.7,
+    "rh": 71,
+    "wind": 6.0,
+    "et0": 2.11,
+    "tsol": 9.2,
+    "sm": 0.276,
+    "sm_deep": 0.199
    },
    "2026-10-10": {
     "models": {
@@ -4023,16 +4095,16 @@
      "sm": "best_match",
      "sm_deep": "best_match"
     },
-    "rr": 0.3,
-    "tmin": 4.6,
-    "tmax": 14.1,
-    "tmoy": 10.2,
-    "rh": 85,
-    "et0": 1.15,
-    "wind": 6.0,
-    "tsol": 12.0,
-    "sm": 0.222,
-    "sm_deep": 0.159
+    "rr": 0.0,
+    "tmin": 5.1,
+    "tmax": 14.2,
+    "tmoy": 9.8,
+    "rh": 88,
+    "et0": 0.88,
+    "wind": 5.8,
+    "tsol": 11.3,
+    "sm": 0.239,
+    "sm_deep": 0.197
    },
    "2026-10-11": {
     "models": {
@@ -4048,15 +4120,15 @@
      "sm_deep": "best_match"
     },
     "rr": 0.0,
-    "tmin": 4.1,
-    "tmax": 13.1,
-    "tmoy": 8.5,
-    "rh": 71,
-    "et0": 1.78,
-    "wind": 5.4,
-    "tsol": 10.2,
-    "sm": 0.218,
-    "sm_deep": 0.161
+    "tmin": 4.5,
+    "tmax": 13.8,
+    "tmoy": 8.9,
+    "rh": 70,
+    "et0": 1.87,
+    "wind": 3.9,
+    "tsol": 9.4,
+    "sm": 0.221,
+    "sm_deep": 0.193
    },
    "2026-10-12": {
     "models": {
@@ -4072,15 +4144,15 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 2.1,
-    "tmax": 14.4,
-    "tmoy": 7.8,
-    "rh": 81,
-    "et0": 2.02,
-    "tsol": 8.9,
-    "sm": 0.202,
-    "sm_deep": 0.155,
-    "wind": 5.6
+    "tmin": 1.5,
+    "tmax": 15.0,
+    "tmoy": 8.1,
+    "rh": 85,
+    "et0": 1.93,
+    "tsol": 9.1,
+    "sm": 0.21,
+    "sm_deep": 0.192,
+    "wind": 4.7
    },
    "2026-10-13": {
     "models": {
@@ -4096,15 +4168,15 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 1.9,
-    "tmax": 18.8,
-    "tmoy": 12.1,
-    "rh": 75,
-    "et0": 2.11,
-    "tsol": 11.1,
-    "sm": 0.184,
-    "sm_deep": 0.143,
-    "wind": 2.7
+    "tmin": 4.1,
+    "tmax": 19.0,
+    "tmoy": 11.8,
+    "rh": 81,
+    "et0": 2.05,
+    "tsol": 11.0,
+    "sm": 0.195,
+    "sm_deep": 0.175,
+    "wind": 2.9
    },
    "2026-10-14": {
     "models": {
@@ -4119,16 +4191,16 @@
      "sm_deep": "best_match",
      "wind": "best_match"
     },
-    "rr": 0.3,
-    "tmin": 5.9,
-    "tmax": 17.7,
-    "tmoy": 13.2,
-    "rh": 87,
-    "et0": 1.42,
-    "tsol": 13.4,
-    "sm": 0.176,
-    "sm_deep": 0.142,
-    "wind": 6.0
+    "rr": 0.0,
+    "tmin": 9.4,
+    "tmax": 19.4,
+    "tmoy": 13.7,
+    "rh": 88,
+    "et0": 1.65,
+    "tsol": 13.2,
+    "sm": 0.185,
+    "sm_deep": 0.172,
+    "wind": 3.0
    },
    "2026-10-15": {
     "models": {
@@ -4138,15 +4210,21 @@
      "tmoy": "best_match",
      "rh": "best_match",
      "et0": "best_match",
+     "tsol": "best_match",
+     "sm": "best_match",
+     "sm_deep": "best_match",
      "wind": "best_match"
     },
-    "rr": 4.5,
-    "tmin": 4.9,
-    "tmax": 17.3,
-    "tmoy": 11.1,
-    "rh": 90,
-    "et0": 1.58,
-    "wind": 2.9
+    "rr": 4.8,
+    "tmin": 9.2,
+    "tmax": 20.8,
+    "tmoy": 14.0,
+    "rh": 85,
+    "et0": 1.91,
+    "tsol": 12.7,
+    "sm": 0.18,
+    "sm_deep": 0.171,
+    "wind": 4.5
    },
    "2026-10-16": {
     "models": {
@@ -4158,13 +4236,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 2.1,
-    "tmin": 4.9,
-    "tmax": 11.6,
-    "tmoy": 8.5,
-    "rh": 85,
-    "et0": 1.21,
-    "wind": 14.5
+    "rr": 10.8,
+    "tmin": 4.7,
+    "tmax": 12.3,
+    "tmoy": 8.6,
+    "rh": 84,
+    "et0": 1.07,
+    "wind": 13.7
    },
    "2026-10-17": {
     "models": {
@@ -4176,13 +4254,13 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 0.0,
-    "tmin": 0.9,
-    "tmax": 10.2,
-    "tmoy": 6.2,
-    "rh": 80,
-    "et0": 1.47,
-    "wind": 12.2
+    "rr": 3.6,
+    "tmin": 3.6,
+    "tmax": 5.0,
+    "tmoy": 4.5,
+    "rh": 82,
+    "et0": 1.02,
+    "wind": 27.3
    },
    "2026-10-18": {
     "models": {
@@ -4195,12 +4273,12 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 0.1,
-    "tmax": 13.2,
-    "tmoy": 7.9,
-    "rh": 74,
-    "et0": 1.81,
-    "wind": 5.8
+    "tmin": 3.2,
+    "tmax": 9.2,
+    "tmoy": 5.6,
+    "rh": 81,
+    "et0": 1.27,
+    "wind": 9.6
    },
    "2026-10-19": {
     "models": {
@@ -4213,12 +4291,12 @@
      "wind": "best_match"
     },
     "rr": 0.0,
-    "tmin": 6.8,
-    "tmax": 13.1,
-    "tmoy": 9.6,
-    "rh": 90,
-    "et0": 1.28,
-    "wind": 6.1
+    "tmin": 3.1,
+    "tmax": 14.8,
+    "tmoy": 8.1,
+    "rh": 78,
+    "et0": 1.78,
+    "wind": 5.5
    },
    "2026-10-20": {
     "models": {
@@ -4230,15 +4308,15 @@
      "et0": "best_match",
      "wind": "best_match"
     },
-    "rr": 4.2,
-    "tmin": 5.8,
-    "tmax": 15.0,
-    "tmoy": 9.7,
-    "rh": 82,
-    "et0": 1.79,
-    "wind": 7.2
+    "rr": 0.0,
+    "tmin": 2.9,
+    "tmax": 18.5,
+    "tmoy": 10.8,
+    "rh": 78,
+    "et0": 1.89,
+    "wind": 3.6
    }
   }
  },
- "generated": "2026-10-07T23:20:35+00:00"
+ "generated": "2026-10-08T14:03:49+00:00"
 }

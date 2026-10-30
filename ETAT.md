@@ -1,6 +1,6 @@
 # État météo — bassin de Monistrol-sur-Loire
 
-Généré le 2026-10-29 23:01 · prévisions du run `2026-10-29T22:56:30+00:00`
+Généré le 2026-10-30 13:34 · prévisions du run `2026-10-30T13:31:03+00:00`
 
 Journées météo calées 06h–06h UTC, comme les cumuls Météo-France.
 
@@ -8,20 +8,20 @@ Journées météo calées 06h–06h UTC, comme les cumuls Météo-France.
 
 | Station | alt | dist | 24 h | 7 j | 30 j | 90 j | Tmin | Tmax | 30 derniers jours |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|---|
-| Bas-En-Basset | 446 m | 5 km | 0.0 | 4.2 | 92.4 | 137.9 | 1.6 | 15.0 | `▁▁▂ ▁  ▂█▃▁▁   ▁ ▁  ██▂ ▂▁▁▁▁ ` |
-| Beauzac-Spc | 643 m | 5 km | 0.0 | 4.6 | 108.2 | 162.8 | – | – | `▁▁▃    ▃█▃▁▁  ▁▁ ▁▁▁██▁ ▂ ▁▁▁ ` |
-| Monistrol-Sur-Loire | 777 m | 5 km | 0.2 | 5.4 | 117.2 | 182.3 | 3.2 | 12.1 | `▁▁▂    ▂█▄▁▁▁ ▁▁▁▁▂▁██▂▁▂ ▁▁▁▁` |
-| Aurec-Sur-Loire-Spc | 820 m | 11 km | 0.0 | 5.4 | 104.2 | 169.2 | – | – | `▁▁▁▁▁  ▁█▃▁▁  ▁▁▁▁▄▁██▁ ▂ ▁▁▁ ` |
-| St-Romain-Lachalm | 902 m | 13 km | 2.0 | 9.1 | 142.5 | 247.3 | 1.9 | 9.8 | `▁▂▇ ▁  ▂█▆▁▁  ▁   ▂▁██▂ ▂▂▁  ▁` |
-| Tiranges | 603 m | 14 km | 0.2 | 8.4 | 94.3 | 165.4 | -0.1 | 15.1 | `▁▁▂ ▁  ▃█▃ ▁▁  ▁▁▁▁▁█▆▁▁▂▁▁▁▁▁` |
-| Retournac | 535 m | 15 km | 0.0 | 7.4 | 126.0 | 204.0 | 2.8 | 14.4 | `▁▁▅ ▁ ▁▃█▃ ▁ ▁ ▁ ▁▁▁██▁ ▂▁▁▁▁ ` |
-| Montfaucon-En-Velay-Spc | 919 m | 17 km | 0.0 | 5.4 | 124.4 | 248.2 | – | – | `▁▂▄ ▁  ▂▆▅▁▁  ▁▁  ▁▁██▁ ▂▁▁ ▁ ` |
-| St-Pal-De-Chalencon | 960 m | 17 km | 0.0 | 6.8 | 86.5 | 161.7 | 2.1 | 10.4 | ` ▁▁ ▁  ▃▇▂▁▁  ▁▁ ▁▁▁█▆▂ ▂▁▁▁▁ ` |
-| St-Bonnet-Le-Chateau_Sapc | 822 m | 18 km | 0.0 | 7.6 | 89.4 | 150.8 | 2.5 | 10.6 | ` ▁▁ ▁  ▁▅▃▁▁  ▁  ▁▂▁█▇▂ ▂▁▁ ▁ ` |
-| Yssingeaux | 873 m | 18 km | 0.0 | 8.9 | 156.1 | 217.1 | 3.9 | 12.0 | `▂▁▅ ▁  ▃█▇▁▂  ▁▁ ▁▂▁██▂ ▃▁▁▁▁ ` |
-| St-Julien-Du-Pinet-Spc | 942 m | 19 km | 0.0 | 8.0 | 148.4 | 210.4 | – | – | `▁▁█ ▁  ▃█▆▁▁  ▁▁▁▁▂▁██▁ ▂▁▁▁▁ ` |
-| Saint-Genest-Malifaux-Spc | 960 m | 20 km | 0.0 | 8.2 | 119.6 | 213.0 | – | – | `▁▂▂▁▁▁ ▁██▁▁  ▁▁▁▁▃▁▆█▂ ▂▁▁ ▁ ` |
-| Tence | 848 m | 21 km | 0.0 | 11.6 | 162.9 | 252.1 | 3.9 | 10.2 | `▂▂▂▁   ▃█▅▁▁ ▁▁ ▁▁▁▁██▂▁▃▁▁▁▁ ` |
+| Bas-En-Basset | 446 m | 5 km | 0.0 | 4.2 | 92.0 | 132.5 | 1.7 | 15.0 | `▁▂ ▁  ▂█▃▁▁   ▁ ▁  ██▂ ▂▁▁▁▁  ` |
+| Beauzac-Spc | 643 m | 5 km | 0.0 | 4.6 | 107.4 | 156.6 | – | – | `▁▃    ▃█▃▁▁  ▁▁ ▁▁▁██▁ ▂ ▁▁▁  ` |
+| Monistrol-Sur-Loire | 777 m | 5 km | 0.2 | 5.4 | 116.4 | 179.7 | 3.7 | 11.4 | `▁▂    ▂█▄▁▁▁ ▁▁▁▁▂▁██▂▁▂ ▁▁▁▁▁` |
+| Aurec-Sur-Loire-Spc | 820 m | 11 km | 0.0 | 5.4 | 104.0 | 153.2 | – | – | `▁▁▁▁  ▁█▃▁▁  ▁▁▁▁▄▁██▁ ▂ ▁▁▁  ` |
+| St-Romain-Lachalm | 902 m | 13 km | 0.0 | 7.1 | 139.4 | 238.7 | 2.7 | 11.4 | `▂▇ ▁  ▂█▆▁▁  ▁   ▂▁██▂ ▂▂▁    ` |
+| Tiranges | 603 m | 14 km | 0.2 | 8.4 | 94.3 | 142.9 | -0.5 | 16.5 | `▁▂ ▁  ▃█▃ ▁▁  ▁▁▁▁▁█▆▁▁▂▁▁▁▁▁▁` |
+| Retournac | 535 m | 15 km | 0.0 | 7.4 | 124.8 | 189.6 | 1.3 | 13.9 | `▁▅ ▁ ▁▃█▃ ▁ ▁ ▁ ▁▁▁██▁ ▂▁▁▁▁  ` |
+| Montfaucon-En-Velay-Spc | 919 m | 17 km | 0.2 | 5.6 | 122.6 | 247.6 | – | – | `▂▄ ▁  ▂▆▅▁▁  ▁▁  ▁▁██▁ ▂▁▁ ▁ ▁` |
+| St-Pal-De-Chalencon | 960 m | 17 km | 0.0 | 6.8 | 86.5 | 139.6 | 1.5 | 11.9 | `▁▁ ▁  ▃▇▂▁▁  ▁▁ ▁▁▁█▆▂ ▂▁▁▁▁  ` |
+| St-Bonnet-Le-Chateau_Sapc | 822 m | 18 km | 0.0 | 7.6 | 89.4 | 137.1 | 3.6 | 11.2 | `▁▁ ▁  ▁▅▃▁▁  ▁  ▁▂▁█▇▂ ▂▁▁ ▁  ` |
+| Yssingeaux | 873 m | 18 km | 0.0 | 8.9 | 153.0 | 213.4 | 3.1 | 12.6 | `▁▅ ▁  ▃█▇▁▂  ▁▁ ▁▂▁██▂ ▃▁▁▁▁  ` |
+| St-Julien-Du-Pinet-Spc | 942 m | 19 km | 0.0 | 8.0 | 145.6 | 207.4 | – | – | `▁█ ▁  ▃█▆▁▁  ▁▁▁▁▂▁██▁ ▂▁▁▁▁  ` |
+| Saint-Genest-Malifaux-Spc | 960 m | 20 km | 0.0 | 8.2 | 119.4 | 208.8 | – | – | `▂▂▁▁▁ ▁██▁▁  ▁▁▁▁▃▁▆█▂ ▂▁▁ ▁  ` |
+| Tence | 848 m | 21 km | 0.5 | 11.8 | 159.5 | 250.8 | 4.2 | 12.7 | `▂▂▁   ▃█▅▁▁ ▁▁ ▁▁▁▁██▂▁▃▁▁▁▁ ▁` |
 
 Cumuls en mm, arrêtés à la dernière journée complète de chaque station.
 
@@ -29,39 +29,39 @@ Cumuls en mm, arrêtés à la dernière journée complète de chaque station.
 
 | Point | alt | 7 j | 30 j | 90 j | ETP 30 j | Bilan 30 j | Humidité sol |
 |---|--:|--:|--:|--:|--:|--:|--:|
-| Semene - Suc de la Chaud | 840 m | 7.2 | 110.4 | 187.9 | 44.7 | 65.7 | 0.225 |
-| Valprivas - Bois de la Faye | 830 m | 5.3 | 85.5 | 147.5 | 47.1 | 38.4 | 0.2 |
-| Champeau | 800 m | 5.8 | 96.6 | 160.6 | 47.0 | 49.6 | 0.226 |
-| Bois d'Orcimont - Raies Brulees | 760 m | 6.1 | 95.0 | 156.5 | 46.7 | 48.3 | 0.226 |
-| Tirepeyre - Solignac | 700 m | 6.0 | 97.3 | 159.4 | 47.6 | 49.7 | 0.216 |
-| Vallon de Malvalette - Le Garay | 660 m | 4.8 | 81.9 | 143.9 | 47.7 | 34.2 | 0.218 |
-| Pont de Chazeaux - Vacheres | 640 m | 6.4 | 105.6 | 171.2 | 47.0 | 58.6 | 0.216 |
-| Beauzac - Le Raide Mont | 610 m | 6.3 | 96.9 | 167.4 | 47.0 | 49.9 | 0.223 |
-| Monistrol-sur-Loire (bourg) | 602 m | 5.1 | 87.0 | 146.0 | 49.8 | 37.2 | 0.216 |
-| Le Monteil - rive gauche Loire | 560 m | 6.7 | 91.6 | 153.8 | 48.4 | 43.2 | 0.217 |
-| Bas-en-Basset - Rochebaron | 560 m | 3.8 | 75.6 | 135.1 | 49.6 | 26.0 | 0.2 |
-| Aurec-sur-Loire - Hermet | 500 m | 3.8 | 75.4 | 126.3 | 48.9 | 26.5 | 0.219 |
-| Gorges de la Loire - Le Chambon | 460 m | 3.9 | 76.3 | 130.8 | 47.9 | 28.4 | 0.218 |
+| Semene - Suc de la Chaud | 840 m | 7.0 | 110.2 | 169.8 | 43.0 | 67.2 | 0.218 |
+| Valprivas - Bois de la Faye | 830 m | 5.3 | 85.5 | 133.7 | 46.0 | 39.5 | 0.192 |
+| Champeau | 800 m | 5.8 | 96.4 | 148.3 | 45.0 | 51.4 | 0.218 |
+| Bois d'Orcimont - Raies Brulees | 760 m | 6.1 | 94.7 | 143.5 | 44.8 | 49.9 | 0.218 |
+| Tirepeyre - Solignac | 700 m | 5.9 | 97.1 | 145.4 | 45.7 | 51.4 | 0.208 |
+| Vallon de Malvalette - Le Garay | 660 m | 4.8 | 81.9 | 129.8 | 46.4 | 35.5 | 0.209 |
+| Pont de Chazeaux - Vacheres | 640 m | 6.3 | 105.4 | 154.0 | 45.3 | 60.1 | 0.208 |
+| Beauzac - Le Raide Mont | 610 m | 6.0 | 96.8 | 149.5 | 45.6 | 51.2 | 0.214 |
+| Monistrol-sur-Loire (bourg) | 602 m | 5.1 | 86.9 | 134.7 | 47.9 | 39.0 | 0.208 |
+| Le Monteil - rive gauche Loire | 560 m | 6.5 | 91.5 | 140.4 | 47.0 | 44.5 | 0.208 |
+| Bas-en-Basset - Rochebaron | 560 m | 3.8 | 75.6 | 127.9 | 48.2 | 27.4 | 0.191 |
+| Aurec-sur-Loire - Hermet | 500 m | 3.8 | 75.3 | 120.2 | 47.4 | 27.9 | 0.211 |
+| Gorges de la Loire - Le Chambon | 460 m | 3.9 | 76.2 | 124.8 | 46.6 | 29.6 | 0.209 |
 
 Bilan = pluie − évapotranspiration de référence, en mm. Humidité du sol en m³/m³ dans la couche 3–9 cm.
 
 ## Prévision — 10 prochains jours
 
-| Point | 29/10 | 30/10 | 31/10 | 01/11 | 02/11 | 03/11 | 04/11 | 05/11 | 06/11 | 07/11 |
+| Point | 30/10 | 31/10 | 01/11 | 02/11 | 03/11 | 04/11 | 05/11 | 06/11 | 07/11 | 08/11 |
 |---|---|---|---|---|---|---|---|---|---|---|
-| aurec-hermet | 0mm<br>13° | 0mm<br>14° | 0mm<br>11° | 0mm<br>9° | 0mm<br>6° | 0mm<br>5° | 0mm<br>5° | 0mm<br>7° | 5mm<br>13° | 4mm<br>10° |
-| bas-rochebaron | 0mm<br>14° | 0mm<br>14° | 0mm<br>14° | 0mm<br>10° | 0mm<br>8° | 0mm<br>6° | 0mm<br>7° | 0mm<br>10° | 2mm<br>14° | 2mm<br>11° |
-| beauzac-raide | 0mm<br>13° | 0mm<br>13° | 0mm<br>12° | 0mm<br>8° | 0mm<br>6° | 0mm<br>4° | 0mm<br>5° | 0mm<br>8° | 3mm<br>13° | 2mm<br>10° |
-| chambon-loire | 0mm<br>14° | 0mm<br>14° | 0mm<br>14° | 0mm<br>10° | 0mm<br>7° | 0mm<br>6° | 0mm<br>5° | 0mm<br>7° | 5mm<br>14° | 4mm<br>10° |
-| champeau | 0mm<br>12° | 0mm<br>12° | 0mm<br>11° | 0mm<br>7° | 0mm<br>5° | 0mm<br>3° | 0mm<br>4° | 0mm<br>7° | 5mm<br>13° | 4mm<br>9° |
-| chazeaux | 0mm<br>13° | 0mm<br>13° | 0mm<br>11° | 0mm<br>8° | 0mm<br>5° | 0mm<br>4° | 0mm<br>5° | 0mm<br>8° | 5mm<br>13° | 4mm<br>9° |
-| malvalette-garay | 0mm<br>13° | 0mm<br>13° | 0mm<br>11° | 0mm<br>8° | 0mm<br>6° | 0mm<br>5° | 0mm<br>6° | 0mm<br>8° | 3mm<br>12° | 2mm<br>9° |
-| monistrol | 0mm<br>14° | 0mm<br>14° | 0mm<br>12° | 0mm<br>8° | 0mm<br>6° | 0mm<br>5° | 0mm<br>6° | 0mm<br>8° | 5mm<br>13° | 4mm<br>9° |
-| monteil | 0mm<br>14° | 0mm<br>15° | 0mm<br>14° | 0mm<br>10° | 0mm<br>8° | 0mm<br>6° | 0mm<br>6° | 0mm<br>9° | 3mm<br>14° | 2mm<br>11° |
-| orcimont | 0mm<br>13° | 0mm<br>13° | 0mm<br>11° | 0mm<br>8° | 0mm<br>5° | 0mm<br>4° | 0mm<br>5° | 0mm<br>8° | 5mm<br>13° | 4mm<br>9° |
-| semene-chaud | 0mm<br>12° | 0mm<br>12° | 0mm<br>10° | 0mm<br>7° | 0mm<br>4° | 0mm<br>3° | 0mm<br>4° | 0mm<br>7° | 5mm<br>13° | 4mm<br>8° |
-| tirepeyre | 0mm<br>13° | 0mm<br>13° | 0mm<br>11° | 0mm<br>8° | 0mm<br>5° | 0mm<br>4° | 0mm<br>5° | 0mm<br>8° | 5mm<br>13° | 4mm<br>9° |
-| valprivas | 0mm<br>12° | 0mm<br>13° | 0mm<br>12° | 0mm<br>9° | 0mm<br>6° | 0mm<br>5° | 0mm<br>5° | 0mm<br>8° | 2mm<br>13° | 2mm<br>9° |
+| aurec-hermet | 0mm<br>12° | 0mm<br>12° | 0mm<br>9° | 0mm<br>6° | 1mm<br>6° | 14mm<br>5° | 0mm<br>11° | 0mm<br>11° | 0mm<br>12° | 0mm<br>14° |
+| bas-rochebaron | 0mm<br>14° | 0mm<br>13° | 0mm<br>10° | 0mm<br>8° | 1mm<br>7° | 11mm<br>8° | 0mm<br>13° | 0mm<br>13° | 0mm<br>13° | 0mm<br>14° |
+| beauzac-raide | 0mm<br>12° | 0mm<br>12° | 0mm<br>8° | 0mm<br>6° | 2mm<br>5° | 12mm<br>7° | 0mm<br>11° | 0mm<br>12° | 0mm<br>12° | 0mm<br>13° |
+| chambon-loire | 0mm<br>13° | 0mm<br>13° | 0mm<br>10° | 0mm<br>7° | 1mm<br>7° | 14mm<br>5° | 0mm<br>11° | 0mm<br>12° | 0mm<br>12° | 0mm<br>14° |
+| champeau | 0mm<br>11° | 0mm<br>11° | 0mm<br>7° | 0mm<br>5° | 1mm<br>4° | 16mm<br>6° | 0mm<br>10° | 0mm<br>11° | 0mm<br>11° | 0mm<br>13° |
+| chazeaux | 0mm<br>12° | 0mm<br>12° | 0mm<br>8° | 0mm<br>5° | 1mm<br>5° | 12mm<br>6° | 0mm<br>11° | 0mm<br>11° | 0mm<br>11° | 0mm<br>13° |
+| malvalette-garay | 0mm<br>13° | 0mm<br>13° | 0mm<br>8° | 0mm<br>6° | 1mm<br>6° | 11mm<br>6° | 0mm<br>11° | 0mm<br>11° | 0mm<br>11° | 0mm<br>12° |
+| monistrol | 0mm<br>13° | 0mm<br>13° | 0mm<br>8° | 0mm<br>6° | 1mm<br>6° | 12mm<br>7° | 0mm<br>12° | 0mm<br>11° | 0mm<br>11° | 0mm<br>13° |
+| monteil | 0mm<br>14° | 0mm<br>14° | 0mm<br>10° | 0mm<br>8° | 1mm<br>7° | 12mm<br>8° | 0mm<br>13° | 0mm<br>13° | 0mm<br>14° | 0mm<br>15° |
+| orcimont | 0mm<br>12° | 0mm<br>12° | 0mm<br>8° | 0mm<br>5° | 1mm<br>5° | 12mm<br>7° | 0mm<br>11° | 0mm<br>11° | 0mm<br>11° | 0mm<br>13° |
+| semene-chaud | 0mm<br>11° | 0mm<br>11° | 0mm<br>7° | 0mm<br>4° | 1mm<br>4° | 16mm<br>6° | 0mm<br>10° | 0mm<br>10° | 0mm<br>10° | 0mm<br>13° |
+| tirepeyre | 0mm<br>12° | 0mm<br>12° | 0mm<br>8° | 0mm<br>5° | 1mm<br>5° | 12mm<br>7° | 0mm<br>11° | 0mm<br>11° | 0mm<br>11° | 0mm<br>13° |
+| valprivas | 0mm<br>12° | 0mm<br>12° | 0mm<br>9° | 0mm<br>6° | 2mm<br>6° | 11mm<br>6° | 0mm<br>11° | 0mm<br>11° | 0mm<br>12° | 0mm<br>13° |
 
 Pluie quotidienne et température maximale. Les 5 premiers jours viennent d'AROME HD, les suivants d'ARPEGE ou du meilleur modèle disponible.
 

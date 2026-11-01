@@ -215,6 +215,35 @@ def interpoler_stations(daily: dict[str, dict[str, dict]],
                 daily[pid][jour]["rr_stations"] = round(num / den, 2)
                 daily[pid][jour]["rr_stations_n"] = len(mesures)
 
+    # Mêmes stations, même pondération, pour les températures extrêmes — mais
+    # avec un gradient adiabatique en plus. Entre un poste à 446 m et un autre
+    # à 960 m l'écart dépasse trois degrés : interpoler brut donnerait n'importe
+    # quoi, et le gel se joue justement à un degré près.
+    GRADIENT = 0.6 / 100.0
+    for champ in ("tmin", "tmax"):
+        par_jour_t: dict[str, list[tuple[str, float]]] = {}
+        for sid in stations:
+            for jour, entry in daily.get(sid, {}).items():
+                if champ in entry and entry.get("hours", 0) >= 20:
+                    par_jour_t.setdefault(jour, []).append((sid, entry[champ]))
+
+        for pid, pm in points.items():
+            for jour, mesures in par_jour_t.items():
+                if jour not in daily.get(pid, {}) or len(mesures) < 3:
+                    continue
+                num = den = 0.0
+                for sid, val in mesures:
+                    sm = stations[sid]
+                    d_km = math.hypot((pm["lat"] - sm["lat"]) * 111.0,
+                                      (pm["lon"] - sm["lon"]) * 78.1)
+                    w = 1.0 / max(d_km + abs((pm["alt"] or 0) -
+                                             (sm["alt"] or 0)) / 100.0, 0.5) ** 2
+                    dz = (pm["alt"] or 0) - (sm["alt"] or 0)
+                    num += w * (val - dz * GRADIENT)
+                    den += w
+                if den > 0:
+                    daily[pid][jour][f"{champ}_stations"] = round(num / den, 1)
+
 
 def build_climatologie(daily: dict[str, dict[str, dict]],
                        sources: dict[str, dict], fenetre: int = 5) -> dict:

@@ -8,6 +8,8 @@ aux formats bruts, ces deux fichiers gardent la même forme.
                               (source, jour)
     data/forecast_daily.json  prévision la plus récente, un enregistrement par
                               (point, jour)
+    data/forecast_horaire.json prévision heure par heure, pour juger non pas
+                              la poussée mais la sortie elle-même
     data/climatologie.json    normales par point et par quantième, pour
                               prolonger au-delà de la prévision
 
@@ -354,6 +356,51 @@ def build_forecast_daily() -> dict:
                                          for p, d in by_point.items()}}
 
 
+def build_forecast_horaire() -> dict:
+    """Prévision heure par heure, pour juger non plus la poussée mais la sortie.
+
+    Les cumuls journaliers suffisent à savoir si la pluie a déclenché quelque
+    chose. Ils ne disent rien de ce qui intéresse celui qui part marcher : il
+    pleut entre neuf heures et midi, ou seulement le soir ? Cinq millimètres
+    étalés sur la journée et cinq millimètres en une averse ne se vivent pas
+    pareil.
+
+    Mêmes priorités de modèle que pour le journalier, appliquées heure par
+    heure : AROME HD tant qu'il porte, puis ARPEGE, puis le modèle global.
+    """
+    files = sorted((DATA / "forecast").glob("*.jsonl.gz"))
+    if not files:
+        return {"run_ts": None, "points": {}}
+
+    rows = list(iter_jsonl_gz(files[-2:]))
+    if not rows:
+        return {"run_ts": None, "points": {}}
+    run_ts = max(r["run_ts"] for r in rows)
+    rows = [r for r in rows if r["run_ts"] == run_ts]
+
+    champs = ("precipitation", "precipitation_probability", "temperature_2m",
+              "wind_speed_10m", "relative_humidity_2m")
+    par_point: dict[str, dict[str, dict]] = collections.defaultdict(dict)
+    for modele in MODEL_PRIORITY:
+        for row in rows:
+            if row["model"] != modele:
+                continue
+            creneau = par_point[row["point"]].setdefault(row["ts"], {})
+            for champ in champs:
+                court = {"precipitation": "rr",
+                         "precipitation_probability": "proba",
+                         "temperature_2m": "t", "wind_speed_10m": "vent",
+                         "relative_humidity_2m": "rh"}[champ]
+                if court not in creneau and row.get(champ) is not None:
+                    creneau[court] = row[champ]
+                    if court == "rr":
+                        creneau["modele"] = modele
+
+    return {"run_ts": run_ts,
+            "fuseau": CONFIG["timezone"],
+            "points": {p: dict(sorted(h.items())) for p, h in par_point.items()}}
+
+
 def main() -> int:
     stations = json.loads((ROOT / "stations.json").read_text(encoding="utf-8")) \
         if (ROOT / "stations.json").exists() else {}
@@ -400,6 +447,11 @@ def main() -> int:
     (DATA / "climatologie.json").write_text(
         json.dumps(climat, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
+    horaire = build_forecast_horaire()
+    (DATA / "forecast_horaire.json").write_text(
+        json.dumps(horaire, ensure_ascii=False, separators=(",", ":")) + "\n",
+        encoding="utf-8")
+
     forecast = build_forecast_daily()
     forecast["generated"] = payload["generated"]
     (DATA / "forecast_daily.json").write_text(
@@ -409,6 +461,9 @@ def main() -> int:
     print(f"daily.json          : {len(daily)} sources, {n_days} jours-source")
     print(f"forecast_daily.json : run {forecast['run_ts']}, "
           f"{len(forecast['points'])} points")
+    n_h = sum(len(v) for v in horaire.get("points", {}).values())
+    print(f"forecast_horaire.json : {len(horaire.get('points', {}))} points, "
+          f"{n_h} heures")
     n_norm = sum(len(v) for v in climat.get("points", {}).values())
     print(f"climatologie.json   : {len(climat.get('points', {}))} points, "
           f"{n_norm} normales journalières, période "

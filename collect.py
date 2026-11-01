@@ -63,6 +63,7 @@ OM_AIR = [
     "relative_humidity_2m",
     "dew_point_2m",
     "precipitation",
+    "precipitation_probability",
     "wind_speed_10m",
 ]
 OM_SOIL = [
@@ -382,6 +383,10 @@ def collect_forecast() -> int:
             "models": ",".join(models),
             "forecast_days": 14,
             "past_days": 2,
+            # Les stations Météo-France donnent le vent en m/s ; Open-Meteo en
+            # km/h par défaut. Deux unités dans le même champ `wind` passeraient
+            # inaperçues jusqu'au jour où on les compare.
+            "wind_speed_unit": "ms",
             "timezone": CONFIG["timezone"],
         })
         unpacked = _unpack_hourly(payload, models)
@@ -436,6 +441,7 @@ def collect_grid(days: int) -> int:
                     "models": model,
                     "start_date": chunk_start.isoformat(),
                     "end_date": chunk_end.isoformat(),
+                    "wind_speed_unit": "ms",
                     "timezone": CONFIG["timezone"],
                 })
                 series = _unpack_hourly(payload, [model])[model]

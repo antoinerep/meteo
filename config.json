@@ -25,6 +25,7 @@
     { "id": "beauzac-raide",    "name": "Beauzac - Le Raide Mont",                "lat": 45.2400, "lon": 4.1400, "alt": 610 },
     { "id": "semene-chaud",     "name": "Semene - Suc de la Chaud",               "lat": 45.2780, "lon": 4.2400, "alt": 840 },
     { "id": "bas-rochebaron",   "name": "Bas-en-Basset - Rochebaron",             "lat": 45.3100, "lon": 4.1100, "alt": 560 },
-    { "id": "valprivas",        "name": "Valprivas - Bois de la Faye",            "lat": 45.3250, "lon": 4.0800, "alt": 830 }
+    { "id": "valprivas",        "name": "Valprivas - Bois de la Faye",            "lat": 45.3250, "lon": 4.0800, "alt": 830 },
+    { "id": "potager",          "name": "Potager",                                "lat": 45.2876, "lon": 4.1796, "alt": 623 }
   ]
 }

@@ -1,6 +1,6 @@
 # État météo — bassin de Monistrol-sur-Loire
 
-Généré le 2026-11-10 01:48 · prévisions du run `2026-11-10T01:44:42+00:00`
+Généré le 2026-11-10 15:18 · prévisions du run `2026-11-10T15:13:15+00:00`
 
 Journées météo calées 06h–06h UTC, comme les cumuls Météo-France.
 
@@ -8,20 +8,20 @@ Journées météo calées 06h–06h UTC, comme les cumuls Météo-France.
 
 | Station | alt | dist | 24 h | 7 j | 30 j | 90 j | Tmin | Tmax | 30 derniers jours |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|---|
-| Bas-En-Basset | 446 m | 5 km | 0.0 | 36.1 | 88.7 | 159.0 | 1.6 | 14.3 | `▁   ▁ ▁  ██▂ ▂▁▁▁▁       ▂█▁  ` |
-| Beauzac-Spc | 643 m | 5 km | 0.0 | 39.8 | 89.0 | 185.8 | – | – | `▁  ▁▁ ▁▁▁██▁ ▂ ▁▁▁       ▃█   ` |
-| Monistrol-Sur-Loire | 777 m | 5 km | 0.0 | 53.0 | 120.4 | 223.1 | 5.8 | 12.5 | `▁▁ ▁▁▁▁▂▁██▂▁▂ ▁▁▁▁▁   ▁ ▂█ ▁ ` |
-| Aurec-Sur-Loire-Spc | 820 m | 11 km | 0.0 | 49.2 | 114.0 | 191.8 | – | – | `▁  ▁▁▁▁▄▁██▁ ▂ ▁▁▁       ▂█   ` |
-| St-Romain-Lachalm | 902 m | 13 km | 0.0 | 45.5 | 120.9 | 276.8 | 5.2 | 10.8 | `▁  ▁   ▂▁██▂ ▂▂▁   ▁▁    ▂█   ` |
-| Tiranges | 603 m | 14 km | 0.0 | 27.1 | 81.1 | 157.5 | 0.6 | 15.6 | `▁▁  ▁▁▁▁▁█▆▁▁▂▁▁▁▁▁▁   ▁ ▃▇▁  ` |
-| Retournac | 535 m | 15 km | 0.0 | 36.8 | 102.4 | 217.4 | 2.5 | 15.8 | `▁ ▁ ▁ ▁▁▁██▁ ▂▁▁▁▁    ▁  ▃█ ▁ ` |
-| Montfaucon-En-Velay-Spc | 919 m | 17 km | 0.0 | 43.0 | 114.8 | 266.4 | – | – | `▁  ▁▁  ▁▁██▁ ▂▁▁ ▁ ▁     ▂█   ` |
-| St-Pal-De-Chalencon | 960 m | 17 km | 0.0 | 21.0 | 74.7 | 144.3 | 2.8 | 11.2 | `▁  ▁▁ ▁▁▁█▆▂ ▂▁▁▁▁  ▁    ▃▆▁  ` |
-| St-Bonnet-Le-Chateau_Sapc | 822 m | 18 km | 0.0 | 26.3 | 90.4 | 149.1 | 3.6 | 12.8 | `▁  ▁  ▁▂▁█▇▂ ▂▁▁ ▁       ▂█   ` |
-| Yssingeaux | 873 m | 18 km | 0.0 | 58.4 | 145.8 | 264.2 | 3.3 | 13.6 | `▂  ▁▁ ▁▂▁██▂ ▃▁▁▁▁       ▄█   ` |
-| St-Julien-Du-Pinet-Spc | 942 m | 19 km | 0.0 | 42.2 | 107.6 | 238.0 | – | – | `▁  ▁▁▁▁▂▁██▁ ▂▁▁▁▁       ▃█ ▁ ` |
-| Saint-Genest-Malifaux-Spc | 960 m | 20 km | 0.0 | 38.8 | 100.8 | 238.2 | – | – | `▁  ▁▁▁▁▃▁▆█▂ ▂▁▁ ▁  ▁    ▂█   ` |
-| Tence | 848 m | 21 km | 0.0 | 65.7 | 175.6 | 303.0 | 1.3 | 11.7 | `▁ ▁▁ ▁▁▁▁██▂▁▃▁▁▁▁  ▁    ▄█▁▁ ` |
+| Bas-En-Basset | 446 m | 5 km | 0.4 | 36.5 | 88.7 | 159.2 | 5.6 | 20.2 | `   ▁ ▁  ██▂ ▂▁▁▁▁       ▂█▁  ▁` |
+| Beauzac-Spc | 643 m | 5 km | 0.2 | 40.0 | 88.8 | 186.0 | – | – | `  ▁▁ ▁▁▁██▁ ▂ ▁▁▁       ▃█   ▁` |
+| Monistrol-Sur-Loire | 777 m | 5 km | 0.8 | 53.6 | 120.0 | 221.7 | 11.4 | 15.8 | `▁ ▁▁▁▁▂▁██▂▁▂ ▁▁▁▁▁   ▁ ▂█ ▁ ▁` |
+| Aurec-Sur-Loire-Spc | 820 m | 11 km | 0.6 | 49.8 | 114.2 | 192.4 | – | – | `  ▁▁▁▁▄▁██▁ ▂ ▁▁▁       ▂█   ▁` |
+| St-Romain-Lachalm | 902 m | 13 km | 0.4 | 45.9 | 118.6 | 267.1 | 10.9 | 12.9 | `  ▁   ▂▁██▂ ▂▂▁   ▁▁    ▂█   ▁` |
+| Tiranges | 603 m | 14 km | 0.4 | 27.3 | 80.5 | 157.7 | 7.9 | 17.8 | `▁  ▁▁▁▁▁█▆▁▁▂▁▁▁▁▁▁   ▁ ▃▇▁  ▁` |
+| Retournac | 535 m | 15 km | 0.2 | 37.0 | 102.2 | 217.6 | 6.7 | 19.2 | ` ▁ ▁ ▁▁▁██▁ ▂▁▁▁▁    ▁  ▃█ ▁ ▁` |
+| Montfaucon-En-Velay-Spc | 919 m | 17 km | 0.0 | 43.0 | 113.2 | 240.6 | – | – | `  ▁▁  ▁▁██▁ ▂▁▁ ▁ ▁     ▂█    ` |
+| St-Pal-De-Chalencon | 960 m | 17 km | 0.3 | 21.3 | 73.2 | 144.3 | 9.9 | 13.8 | `  ▁▁ ▁▁▁█▆▂ ▂▁▁▁▁  ▁    ▃▆▁  ▁` |
+| St-Bonnet-Le-Chateau_Sapc | 822 m | 18 km | 0.7 | 27.0 | 89.2 | 149.8 | 11.3 | 15.9 | `  ▁  ▁▂▁█▇▂ ▂▁▁ ▁       ▂█   ▁` |
+| Yssingeaux | 873 m | 18 km | 0.3 | 58.7 | 143.2 | 263.8 | 11.2 | 16.8 | `  ▁▁ ▁▂▁██▂ ▃▁▁▁▁       ▄█   ▁` |
+| St-Julien-Du-Pinet-Spc | 942 m | 19 km | 0.4 | 42.6 | 107.4 | 238.2 | – | – | `  ▁▁▁▁▂▁██▁ ▂▁▁▁▁       ▃█ ▁ ▁` |
+| Saint-Genest-Malifaux-Spc | 960 m | 20 km | 0.4 | 39.2 | 100.4 | 238.6 | – | – | `  ▁▁▁▁▃▁▆█▂ ▂▁▁ ▁  ▁    ▂█   ▁` |
+| Tence | 848 m | 21 km | 0.3 | 66.0 | 173.2 | 291.7 | 10.9 | 13.2 | ` ▁▁ ▁▁▁▁██▂▁▃▁▁▁▁  ▁    ▄█▁▁ ▁` |
 
 Cumuls en mm, arrêtés à la dernière journée complète de chaque station.
 
@@ -50,20 +50,20 @@ Bilan = pluie − évapotranspiration de référence, en mm. Humidité du sol en
 
 | Point | 10/11 | 11/11 | 12/11 | 13/11 | 14/11 | 15/11 | 16/11 | 17/11 | 18/11 | 19/11 |
 |---|---|---|---|---|---|---|---|---|---|---|
-| aurec-hermet | 0mm<br>19° | 0mm<br>18° | 23mm<br>15° | 1mm<br>6° | 0mm<br>11° | 0mm<br>14° | 9mm<br>13° | 2mm<br>10° | 10mm<br>11° | 0mm<br>14° |
-| bas-rochebaron | 0mm<br>19° | 0mm<br>19° | 16mm<br>16° | 0mm<br>8° | 0mm<br>12° | 0mm<br>14° | 9mm<br>14° | 2mm<br>11° | 11mm<br>12° | 1mm<br>15° |
-| beauzac-raide | 0mm<br>18° | 0mm<br>16° | 15mm<br>15° | 1mm<br>6° | 1mm<br>11° | 0mm<br>12° | 9mm<br>12° | 3mm<br>10° | 12mm<br>10° | 1mm<br>14° |
-| chambon-loire | 0mm<br>19° | 0mm<br>18° | 16mm<br>16° | 0mm<br>7° | 0mm<br>11° | 0mm<br>14° | 9mm<br>13° | 2mm<br>11° | 10mm<br>11° | 0mm<br>14° |
-| champeau | 0mm<br>17° | 0mm<br>16° | 15mm<br>14° | 0mm<br>5° | 1mm<br>10° | 0mm<br>12° | 12mm<br>11° | 2mm<br>10° | 11mm<br>10° | 0mm<br>13° |
-| chazeaux | 0mm<br>17° | 0mm<br>16° | 15mm<br>14° | 0mm<br>5° | 1mm<br>10° | 0mm<br>12° | 9mm<br>12° | 2mm<br>10° | 12mm<br>10° | 0mm<br>13° |
-| malvalette-garay | 0mm<br>18° | 0mm<br>17° | 22mm<br>14° | 1mm<br>6° | 0mm<br>10° | 0mm<br>12° | 10mm<br>13° | 1mm<br>9° | 13mm<br>10° | 1mm<br>13° |
-| monistrol | 0mm<br>18° | 0mm<br>18° | 15mm<br>15° | 0mm<br>6° | 1mm<br>11° | 0mm<br>13° | 9mm<br>13° | 2mm<br>10° | 11mm<br>10° | 0mm<br>13° |
-| monteil | 0mm<br>19° | 0mm<br>18° | 16mm<br>16° | 0mm<br>8° | 1mm<br>12° | 0mm<br>14° | 9mm<br>14° | 3mm<br>11° | 12mm<br>12° | 1mm<br>15° |
-| orcimont | 0mm<br>17° | 0mm<br>16° | 15mm<br>14° | 0mm<br>5° | 1mm<br>11° | 0mm<br>12° | 9mm<br>12° | 2mm<br>10° | 11mm<br>10° | 0mm<br>13° |
-| potager | 0mm<br>18° | 0mm<br>17° | 15mm<br>15° | 0mm<br>6° | 1mm<br>11° | 0mm<br>13° | 9mm<br>13° | 2mm<br>10° | 11mm<br>10° | 0mm<br>13° |
-| semene-chaud | 0mm<br>16° | 1mm<br>15° | 15mm<br>14° | 0mm<br>5° | 1mm<br>10° | 0mm<br>11° | 12mm<br>11° | 2mm<br>9° | 12mm<br>10° | 0mm<br>12° |
-| tirepeyre | 0mm<br>17° | 0mm<br>16° | 15mm<br>14° | 0mm<br>5° | 1mm<br>11° | 0mm<br>12° | 9mm<br>12° | 2mm<br>10° | 11mm<br>10° | 0mm<br>13° |
-| valprivas | 0mm<br>18° | 0mm<br>16° | 16mm<br>14° | 0mm<br>6° | 0mm<br>10° | 0mm<br>12° | 9mm<br>12° | 2mm<br>9° | 11mm<br>10° | 1mm<br>13° |
+| aurec-hermet | 1mm<br>18° | 2mm<br>18° | 35mm<br>14° | 1mm<br>6° | 1mm<br>13° | 1mm<br>15° | 9mm<br>13° | 1mm<br>17° | 3mm<br>18° | 0mm<br>12° |
+| bas-rochebaron | 1mm<br>19° | 3mm<br>18° | 28mm<br>14° | 0mm<br>8° | 1mm<br>13° | 2mm<br>15° | 8mm<br>13° | 2mm<br>17° | 4mm<br>19° | 1mm<br>12° |
+| beauzac-raide | 1mm<br>18° | 3mm<br>16° | 26mm<br>14° | 1mm<br>6° | 1mm<br>12° | 1mm<br>14° | 7mm<br>12° | 2mm<br>16° | 5mm<br>18° | 1mm<br>11° |
+| chambon-loire | 1mm<br>18° | 2mm<br>18° | 28mm<br>14° | 0mm<br>7° | 1mm<br>13° | 1mm<br>14° | 9mm<br>12° | 1mm<br>17° | 3mm<br>19° | 0mm<br>12° |
+| champeau | 1mm<br>17° | 3mm<br>15° | 28mm<br>13° | 0mm<br>5° | 2mm<br>12° | 1mm<br>13° | 7mm<br>11° | 2mm<br>16° | 4mm<br>18° | 0mm<br>11° |
+| chazeaux | 1mm<br>17° | 3mm<br>16° | 28mm<br>14° | 0mm<br>5° | 1mm<br>12° | 1mm<br>13° | 7mm<br>11° | 1mm<br>16° | 4mm<br>17° | 0mm<br>10° |
+| malvalette-garay | 1mm<br>18° | 2mm<br>16° | 34mm<br>13° | 1mm<br>6° | 1mm<br>11° | 1mm<br>13° | 8mm<br>12° | 1mm<br>14° | 4mm<br>17° | 0mm<br>11° |
+| monistrol | 1mm<br>19° | 3mm<br>17° | 28mm<br>14° | 0mm<br>6° | 1mm<br>13° | 1mm<br>14° | 7mm<br>12° | 2mm<br>16° | 4mm<br>18° | 0mm<br>11° |
+| monteil | 1mm<br>19° | 3mm<br>18° | 28mm<br>14° | 0mm<br>8° | 1mm<br>13° | 1mm<br>15° | 7mm<br>13° | 2mm<br>18° | 5mm<br>19° | 1mm<br>12° |
+| orcimont | 1mm<br>17° | 3mm<br>16° | 28mm<br>14° | 0mm<br>5° | 1mm<br>13° | 1mm<br>13° | 7mm<br>12° | 2mm<br>16° | 4mm<br>18° | 0mm<br>11° |
+| potager | 1mm<br>18° | 3mm<br>17° | 28mm<br>14° | 0mm<br>6° | 1mm<br>13° | 1mm<br>14° | 7mm<br>12° | 2mm<br>16° | 4mm<br>18° | 0mm<br>11° |
+| semene-chaud | 1mm<br>17° | 3mm<br>15° | 28mm<br>13° | 0mm<br>5° | 2mm<br>11° | 1mm<br>12° | 7mm<br>10° | 1mm<br>16° | 4mm<br>17° | 0mm<br>10° |
+| tirepeyre | 1mm<br>18° | 3mm<br>16° | 28mm<br>14° | 0mm<br>5° | 1mm<br>12° | 1mm<br>13° | 7mm<br>12° | 2mm<br>16° | 4mm<br>18° | 0mm<br>11° |
+| valprivas | 1mm<br>17° | 2mm<br>16° | 28mm<br>12° | 0mm<br>6° | 2mm<br>12° | 2mm<br>13° | 8mm<br>11° | 2mm<br>15° | 4mm<br>18° | 1mm<br>11° |
 
 Pluie quotidienne et température maximale. Les 5 premiers jours viennent d'AROME HD, les suivants d'ARPEGE ou du meilleur modèle disponible.
 

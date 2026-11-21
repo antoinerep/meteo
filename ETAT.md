@@ -1,6 +1,6 @@
 # État météo — bassin de Monistrol-sur-Loire
 
-Généré le 2026-11-21 14:59 · prévisions du run `2026-11-21T14:55:31+00:00`
+Généré le 2026-11-21 23:37 · prévisions du run `2026-11-21T23:33:40+00:00`
 
 Journées météo calées 06h–06h UTC, comme les cumuls Météo-France.
 
@@ -50,20 +50,20 @@ Bilan = pluie − évapotranspiration de référence, en mm. Humidité du sol en
 
 | Point | 21/11 | 22/11 | 23/11 | 24/11 | 25/11 | 26/11 | 27/11 | 28/11 | 29/11 | 30/11 |
 |---|---|---|---|---|---|---|---|---|---|---|
-| aurec-hermet | 2mm<br>12° | 2mm<br>12° | 1mm<br>10° | 12mm<br>10° | 5mm<br>9° | 1mm<br>9° | 1mm<br>7° | 7mm<br>8° | 7mm<br>6° | 0mm<br>10° |
-| bas-rochebaron | 3mm<br>12° | 2mm<br>12° | 1mm<br>11° | 10mm<br>11° | 3mm<br>10° | 0mm<br>9° | 0mm<br>8° | 8mm<br>9° | 6mm<br>6° | 0mm<br>10° |
-| beauzac-raide | 3mm<br>11° | 2mm<br>11° | 1mm<br>9° | 8mm<br>9° | 5mm<br>8° | 0mm<br>7° | 0mm<br>7° | 6mm<br>8° | 5mm<br>5° | 0mm<br>9° |
-| chambon-loire | 3mm<br>12° | 3mm<br>12° | 1mm<br>10° | 10mm<br>10° | 3mm<br>9° | 1mm<br>9° | 1mm<br>7° | 7mm<br>8° | 7mm<br>6° | 0mm<br>10° |
-| champeau | 3mm<br>11° | 2mm<br>11° | 1mm<br>8° | 9mm<br>8° | 7mm<br>7° | 0mm<br>6° | 1mm<br>6° | 5mm<br>7° | 6mm<br>5° | 0mm<br>9° |
-| chazeaux | 3mm<br>11° | 1mm<br>11° | 1mm<br>9° | 9mm<br>9° | 6mm<br>8° | 0mm<br>7° | 0mm<br>6° | 6mm<br>7° | 5mm<br>5° | 0mm<br>8° |
-| malvalette-garay | 3mm<br>11° | 4mm<br>11° | 1mm<br>9° | 14mm<br>9° | 5mm<br>8° | 0mm<br>8° | 0mm<br>7° | 8mm<br>7° | 5mm<br>5° | 0mm<br>8° |
-| monistrol | 3mm<br>12° | 1mm<br>12° | 1mm<br>10° | 9mm<br>10° | 6mm<br>8° | 0mm<br>8° | 0mm<br>7° | 5mm<br>7° | 6mm<br>5° | 0mm<br>9° |
-| monteil | 3mm<br>13° | 2mm<br>13° | 1mm<br>10° | 10mm<br>10° | 3mm<br>10° | 0mm<br>9° | 0mm<br>8° | 6mm<br>9° | 5mm<br>6° | 0mm<br>11° |
-| orcimont | 3mm<br>12° | 1mm<br>11° | 1mm<br>9° | 9mm<br>9° | 6mm<br>8° | 0mm<br>7° | 0mm<br>7° | 5mm<br>7° | 6mm<br>5° | 0mm<br>9° |
-| potager | 3mm<br>12° | 1mm<br>12° | 1mm<br>9° | 9mm<br>9° | 6mm<br>8° | 0mm<br>8° | 0mm<br>7° | 5mm<br>7° | 6mm<br>5° | 0mm<br>9° |
-| semene-chaud | 4mm<br>11° | 1mm<br>11° | 1mm<br>8° | 9mm<br>8° | 7mm<br>7° | 0mm<br>6° | 1mm<br>6° | 6mm<br>6° | 5mm<br>4° | 0mm<br>8° |
-| tirepeyre | 3mm<br>12° | 1mm<br>11° | 1mm<br>9° | 9mm<br>9° | 6mm<br>8° | 0mm<br>7° | 0mm<br>7° | 5mm<br>7° | 6mm<br>5° | 0mm<br>9° |
-| valprivas | 3mm<br>10° | 4mm<br>10° | 1mm<br>9° | 10mm<br>9° | 3mm<br>8° | 0mm<br>7° | 0mm<br>6° | 8mm<br>7° | 6mm<br>5° | 0mm<br>9° |
+| aurec-hermet | 2mm<br>13° | 2mm<br>12° | 0mm<br>9° | 10mm<br>9° | 8mm<br>8° | 2mm<br>7° | 0mm<br>-1° | 0mm<br>4° | 0mm<br>12° | 1mm<br>14° |
+| bas-rochebaron | 2mm<br>13° | 2mm<br>12° | 0mm<br>10° | 8mm<br>9° | 5mm<br>9° | 0mm<br>8° | 0mm<br>1° | 0mm<br>4° | 0mm<br>13° | 1mm<br>15° |
+| beauzac-raide | 2mm<br>12° | 2mm<br>11° | 0mm<br>8° | 10mm<br>8° | 8mm<br>7° | 2mm<br>6° | 0mm<br>-1° | 0mm<br>2° | 0mm<br>12° | 1mm<br>14° |
+| chambon-loire | 2mm<br>13° | 2mm<br>12° | 0mm<br>10° | 8mm<br>8° | 5mm<br>8° | 0mm<br>8° | 0mm<br>-1° | 0mm<br>4° | 0mm<br>12° | 1mm<br>15° |
+| champeau | 2mm<br>11° | 2mm<br>10° | 0mm<br>8° | 10mm<br>8° | 7mm<br>6° | 3mm<br>5° | 0mm<br>-2° | 0mm<br>3° | 0mm<br>12° | 0mm<br>14° |
+| chazeaux | 2mm<br>12° | 3mm<br>11° | 0mm<br>8° | 10mm<br>8° | 7mm<br>7° | 2mm<br>6° | 0mm<br>-1° | 0mm<br>4° | 0mm<br>11° | 1mm<br>14° |
+| malvalette-garay | 2mm<br>12° | 2mm<br>11° | 0mm<br>8° | 8mm<br>8° | 7mm<br>7° | 1mm<br>7° | 0mm<br>-0° | 0mm<br>4° | 1mm<br>11° | 1mm<br>12° |
+| monistrol | 2mm<br>13° | 2mm<br>12° | 0mm<br>9° | 10mm<br>9° | 7mm<br>8° | 2mm<br>7° | 0mm<br>-0° | 0mm<br>3° | 0mm<br>12° | 0mm<br>14° |
+| monteil | 2mm<br>13° | 2mm<br>12° | 0mm<br>10° | 8mm<br>9° | 5mm<br>9° | 1mm<br>8° | 0mm<br>0° | 0mm<br>3° | 0mm<br>13° | 1mm<br>15° |
+| orcimont | 2mm<br>12° | 3mm<br>11° | 0mm<br>8° | 10mm<br>8° | 7mm<br>7° | 2mm<br>6° | 0mm<br>-1° | 0mm<br>3° | 0mm<br>12° | 0mm<br>14° |
+| potager | 2mm<br>13° | 2mm<br>12° | 0mm<br>9° | 10mm<br>9° | 7mm<br>7° | 2mm<br>7° | 0mm<br>-0° | 0mm<br>3° | 0mm<br>12° | 0mm<br>14° |
+| semene-chaud | 2mm<br>11° | 4mm<br>10° | 0mm<br>7° | 10mm<br>8° | 7mm<br>6° | 3mm<br>5° | 0mm<br>-2° | 0mm<br>3° | 0mm<br>11° | 1mm<br>13° |
+| tirepeyre | 2mm<br>12° | 3mm<br>11° | 0mm<br>8° | 10mm<br>8° | 7mm<br>7° | 2mm<br>6° | 0mm<br>-1° | 0mm<br>3° | 0mm<br>12° | 0mm<br>14° |
+| valprivas | 2mm<br>11° | 3mm<br>10° | 0mm<br>8° | 8mm<br>7° | 5mm<br>7° | 0mm<br>7° | 0mm<br>-1° | 0mm<br>2° | 0mm<br>11° | 1mm<br>13° |
 
 Pluie quotidienne et température maximale. Les 5 premiers jours viennent d'AROME HD, les suivants d'ARPEGE ou du meilleur modèle disponible.
 

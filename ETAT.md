@@ -1,6 +1,6 @@
 # État météo — bassin de Monistrol-sur-Loire
 
-Généré le 2026-11-20 15:48 · prévisions du run `2026-11-20T15:44:55+00:00`
+Généré le 2026-11-21 00:15 · prévisions du run `2026-11-21T00:08:53+00:00`
 
 Journées météo calées 06h–06h UTC, comme les cumuls Météo-France.
 
@@ -29,41 +29,41 @@ Cumuls en mm, arrêtés à la dernière journée complète de chaque station.
 
 | Point | alt | 7 j | 30 j | 90 j | ETP 30 j | Bilan 30 j | Humidité sol |
 |---|--:|--:|--:|--:|--:|--:|--:|
-| Semene - Suc de la Chaud | 840 m | 15.4 | 83.0 | 207.1 | 29.8 | 53.2 | 0.3 |
-| Valprivas - Bois de la Faye | 830 m | 18.5 | 78.6 | 176.0 | 32.5 | 46.1 | 0.304 |
-| Champeau | 800 m | 16.8 | 79.8 | 186.4 | 31.7 | 48.1 | 0.311 |
-| Bois d'Orcimont - Raies Brulees | 760 m | 16.3 | 80.0 | 185.1 | 31.3 | 48.7 | 0.303 |
-| Tirepeyre - Solignac | 700 m | 15.0 | 78.5 | 187.6 | 32.0 | 46.5 | 0.307 |
-| Vallon de Malvalette - Le Garay | 660 m | 19.7 | 81.6 | 175.3 | 32.4 | 49.2 | 0.301 |
-| Pont de Chazeaux - Vacheres | 640 m | 14.7 | 79.6 | 198.6 | 31.5 | 48.1 | 0.301 |
-| Potager | 623 m | 15.1 | 75.9 | 179.5 | 33.7 | 42.2 | 0.315 |
-| Beauzac - Le Raide Mont | 610 m | 16.4 | 79.0 | 190.2 | 32.7 | 46.3 | 0.308 |
-| Monistrol-sur-Loire (bourg) | 602 m | 15.3 | 75.2 | 174.9 | 33.8 | 41.4 | 0.315 |
-| Le Monteil - rive gauche Loire | 560 m | 15.5 | 78.1 | 181.6 | 34.0 | 44.1 | 0.301 |
-| Bas-en-Basset - Rochebaron | 560 m | 17.1 | 74.2 | 161.3 | 34.4 | 39.8 | 0.311 |
-| Aurec-sur-Loire - Hermet | 500 m | 18.2 | 72.5 | 156.9 | 34.2 | 38.3 | 0.305 |
-| Gorges de la Loire - Le Chambon | 460 m | 18.1 | 74.0 | 160.7 | 32.7 | 41.3 | 0.305 |
+| Semene - Suc de la Chaud | 840 m | 14.6 | 79.9 | 207.9 | 29.8 | 50.1 | 0.278 |
+| Valprivas - Bois de la Faye | 830 m | 19.6 | 76.8 | 177.4 | 32.5 | 44.3 | 0.278 |
+| Champeau | 800 m | 16.1 | 77.5 | 186.9 | 31.7 | 45.8 | 0.285 |
+| Bois d'Orcimont - Raies Brulees | 760 m | 16.1 | 77.4 | 185.8 | 31.3 | 46.1 | 0.279 |
+| Tirepeyre - Solignac | 700 m | 15.0 | 76.1 | 188.4 | 32.1 | 44.0 | 0.278 |
+| Vallon de Malvalette - Le Garay | 660 m | 20.0 | 79.9 | 176.1 | 32.3 | 47.6 | 0.275 |
+| Pont de Chazeaux - Vacheres | 640 m | 14.8 | 76.8 | 199.6 | 31.5 | 45.3 | 0.273 |
+| Potager | 623 m | 15.4 | 74.0 | 180.5 | 33.9 | 40.1 | 0.281 |
+| Beauzac - Le Raide Mont | 610 m | 18.3 | 76.3 | 192.6 | 32.8 | 43.5 | 0.282 |
+| Monistrol-sur-Loire (bourg) | 602 m | 15.8 | 73.4 | 175.9 | 34.0 | 39.4 | 0.281 |
+| Le Monteil - rive gauche Loire | 560 m | 17.2 | 76.3 | 183.6 | 34.1 | 42.2 | 0.271 |
+| Bas-en-Basset - Rochebaron | 560 m | 18.3 | 72.6 | 162.7 | 34.6 | 38.0 | 0.283 |
+| Aurec-sur-Loire - Hermet | 500 m | 16.7 | 71.2 | 157.1 | 34.6 | 36.6 | 0.275 |
+| Gorges de la Loire - Le Chambon | 460 m | 17.5 | 72.6 | 161.1 | 32.9 | 39.7 | 0.276 |
 
 Bilan = pluie − évapotranspiration de référence, en mm. Humidité du sol en m³/m³ dans la couche 3–9 cm.
 
 ## Prévision — 10 prochains jours
 
-| Point | 20/11 | 21/11 | 22/11 | 23/11 | 24/11 | 25/11 | 26/11 | 27/11 | 28/11 | 29/11 |
+| Point | 21/11 | 22/11 | 23/11 | 24/11 | 25/11 | 26/11 | 27/11 | 28/11 | 29/11 | 30/11 |
 |---|---|---|---|---|---|---|---|---|---|---|
-| aurec-hermet | 0mm<br>10° | 4mm<br>12° | 2mm<br>11° | 0mm<br>9° | 10mm<br>10° | 3mm<br>8° | 1mm<br>7° | 0mm<br>8° | 24mm<br>10° | 10mm<br>6° |
-| bas-rochebaron | 1mm<br>12° | 3mm<br>13° | 1mm<br>11° | 0mm<br>10° | 8mm<br>10° | 2mm<br>9° | 0mm<br>9° | 0mm<br>8° | 24mm<br>12° | 10mm<br>7° |
-| beauzac-raide | 1mm<br>9° | 4mm<br>11° | 2mm<br>10° | 0mm<br>8° | 5mm<br>9° | 2mm<br>7° | 0mm<br>7° | 0mm<br>7° | 28mm<br>10° | 9mm<br>6° |
-| chambon-loire | 0mm<br>10° | 4mm<br>12° | 1mm<br>11° | 0mm<br>9° | 8mm<br>9° | 3mm<br>8° | 1mm<br>7° | 0mm<br>8° | 24mm<br>10° | 10mm<br>6° |
-| champeau | 0mm<br>8° | 3mm<br>11° | 3mm<br>10° | 0mm<br>8° | 6mm<br>9° | 4mm<br>7° | 0mm<br>6° | 0mm<br>7° | 30mm<br>9° | 10mm<br>5° |
-| chazeaux | 0mm<br>9° | 3mm<br>11° | 3mm<br>10° | 0mm<br>8° | 5mm<br>8° | 2mm<br>7° | 0mm<br>7° | 0mm<br>6° | 32mm<br>9° | 11mm<br>5° |
-| malvalette-garay | 1mm<br>10° | 4mm<br>11° | 2mm<br>10° | 0mm<br>8° | 11mm<br>8° | 2mm<br>8° | 0mm<br>7° | 0mm<br>6° | 21mm<br>10° | 10mm<br>5° |
-| monistrol | 0mm<br>10° | 3mm<br>12° | 3mm<br>11° | 0mm<br>9° | 5mm<br>9° | 2mm<br>8° | 0mm<br>7° | 0mm<br>7° | 30mm<br>9° | 10mm<br>5° |
-| monteil | 1mm<br>11° | 4mm<br>13° | 1mm<br>11° | 0mm<br>10° | 8mm<br>10° | 2mm<br>9° | 0mm<br>8° | 0mm<br>9° | 28mm<br>12° | 9mm<br>7° |
-| orcimont | 0mm<br>9° | 3mm<br>11° | 3mm<br>10° | 0mm<br>8° | 5mm<br>8° | 2mm<br>7° | 0mm<br>7° | 0mm<br>7° | 30mm<br>9° | 10mm<br>5° |
-| potager | 0mm<br>10° | 3mm<br>12° | 3mm<br>11° | 0mm<br>9° | 5mm<br>9° | 2mm<br>8° | 0mm<br>7° | 0mm<br>7° | 30mm<br>9° | 10mm<br>5° |
-| semene-chaud | 0mm<br>8° | 4mm<br>10° | 3mm<br>9° | 0mm<br>7° | 6mm<br>8° | 4mm<br>6° | 0mm<br>5° | 0mm<br>6° | 32mm<br>8° | 11mm<br>4° |
-| tirepeyre | 0mm<br>9° | 3mm<br>11° | 3mm<br>10° | 0mm<br>8° | 5mm<br>8° | 2mm<br>7° | 0mm<br>7° | 0mm<br>7° | 30mm<br>9° | 10mm<br>5° |
-| valprivas | 1mm<br>9° | 4mm<br>10° | 1mm<br>9° | 0mm<br>8° | 9mm<br>7° | 2mm<br>7° | 0mm<br>7° | 0mm<br>7° | 24mm<br>10° | 10mm<br>5° |
+| aurec-hermet | 3mm<br>12° | 3mm<br>11° | 0mm<br>9° | 7mm<br>8° | 5mm<br>8° | 1mm<br>8° | 0mm<br>9° | 4mm<br>7° | 0mm<br>10° | 0mm<br>12° |
+| bas-rochebaron | 2mm<br>12° | 2mm<br>11° | 0mm<br>10° | 7mm<br>9° | 5mm<br>9° | 1mm<br>8° | 0mm<br>9° | 3mm<br>7° | 0mm<br>11° | 0mm<br>13° |
+| beauzac-raide | 3mm<br>10° | 2mm<br>10° | 0mm<br>8° | 7mm<br>7° | 5mm<br>7° | 1mm<br>7° | 0mm<br>8° | 2mm<br>6° | 0mm<br>10° | 0mm<br>12° |
+| chambon-loire | 3mm<br>12° | 2mm<br>11° | 0mm<br>10° | 7mm<br>8° | 4mm<br>8° | 1mm<br>8° | 0mm<br>8° | 4mm<br>7° | 0mm<br>10° | 0mm<br>12° |
+| champeau | 3mm<br>10° | 2mm<br>10° | 0mm<br>8° | 8mm<br>8° | 7mm<br>6° | 1mm<br>6° | 0mm<br>7° | 3mm<br>6° | 0mm<br>10° | 0mm<br>12° |
+| chazeaux | 3mm<br>11° | 2mm<br>10° | 0mm<br>8° | 8mm<br>8° | 5mm<br>7° | 1mm<br>7° | 0mm<br>8° | 2mm<br>6° | 0mm<br>9° | 0mm<br>12° |
+| malvalette-garay | 3mm<br>10° | 2mm<br>10° | 0mm<br>8° | 8mm<br>8° | 6mm<br>7° | 1mm<br>7° | 0mm<br>8° | 3mm<br>6° | 0mm<br>9° | 0mm<br>11° |
+| monistrol | 3mm<br>11° | 2mm<br>11° | 0mm<br>9° | 8mm<br>9° | 5mm<br>8° | 1mm<br>8° | 0mm<br>8° | 3mm<br>6° | 0mm<br>10° | 0mm<br>12° |
+| monteil | 3mm<br>12° | 2mm<br>11° | 0mm<br>10° | 7mm<br>9° | 4mm<br>9° | 1mm<br>8° | 0mm<br>9° | 2mm<br>8° | 0mm<br>11° | 0mm<br>14° |
+| orcimont | 3mm<br>11° | 2mm<br>10° | 0mm<br>8° | 8mm<br>8° | 5mm<br>7° | 1mm<br>7° | 0mm<br>8° | 3mm<br>6° | 0mm<br>10° | 0mm<br>12° |
+| potager | 3mm<br>11° | 2mm<br>10° | 0mm<br>9° | 8mm<br>9° | 5mm<br>8° | 1mm<br>7° | 0mm<br>8° | 3mm<br>6° | 0mm<br>10° | 0mm<br>12° |
+| semene-chaud | 4mm<br>10° | 2mm<br>9° | 0mm<br>7° | 8mm<br>7° | 7mm<br>6° | 1mm<br>6° | 0mm<br>7° | 2mm<br>6° | 0mm<br>9° | 0mm<br>12° |
+| tirepeyre | 3mm<br>11° | 2mm<br>10° | 0mm<br>8° | 8mm<br>8° | 5mm<br>7° | 1mm<br>7° | 0mm<br>8° | 3mm<br>6° | 0mm<br>10° | 0mm<br>12° |
+| valprivas | 3mm<br>10° | 2mm<br>10° | 0mm<br>8° | 7mm<br>7° | 5mm<br>7° | 1mm<br>7° | 0mm<br>7° | 3mm<br>6° | 0mm<br>9° | 0mm<br>12° |
 
 Pluie quotidienne et température maximale. Les 5 premiers jours viennent d'AROME HD, les suivants d'ARPEGE ou du meilleur modèle disponible.
 
